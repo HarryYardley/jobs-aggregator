@@ -1,19 +1,39 @@
 # scripts/run_pipeline.py
 import json, csv, os
 from datetime import datetime
+from pathlib import Path
 from adapters.github_markdown import fetch_tables_from_github
 from adapters.linkedin import fetch_linkedin_jobs
 from adapters.common import company_name_match
 
-PRIORITY_COMPANIES = [
-    # put your top companies list here (or import from a config file)
-    "Apple","Google","NVIDIA","Tesla","DE Shaw","Citadel","Balyasny", # ...
+def _load_priority_companies_list() -> list[str]:
+    p = Path("companies.txt")
+    if not p.exists():
+        return []
+    return [ln.strip() for ln in p.read_text(encoding="utf-8").splitlines() if ln.strip()]
+
+# Customize your searches here
+INTERN_TITLES = [
+    "Software Engineering Intern",
+    "Data Science Intern",
+    "Machine Learning Intern",
+    "AI Engineer Intern"
 ]
-
-INTERN_TITLES = ["AI Engineering Intern","Software Engineering Intern","Data Science Intern"]
-NEWGRAD_TITLES = ["AI Engineer", "Software Engineer", "Data Scientist", "ML Engineer"]
-
-P1_LOCATIONS = ["San Francisco, CA", "New York, NY", "Austin, TX", "Boston, MA", "Seattle, WA"]  # example
+NEWGRAD_TITLES = [
+    "Software Engineer",
+    "Software Developer",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Engineer",
+    "Quantitative Developer",
+    "Quant Developer",
+    "New Grad Software Engineer",         # keyword seeded
+    "New Graduate Software Engineer 2026" # keyword seeded
+]
+P1_LOCATIONS = [
+    "San Francisco, CA", "New York, NY", "Austin, TX", "Boston, MA", "Seattle, WA",
+    "Ann Arbor, MI", "Detroit, MI", "Chicago, IL", "Palo Alto, CA", "Mountain View, CA"
+]
 
 def main():
     rows = []
@@ -28,23 +48,25 @@ def main():
     # 3) Deduplicate by URL
     uniq = {}
     for r in rows:
-        key = r["url"].strip()
+        key = (r.get("url") or "").strip()
         if key and key not in uniq:
             uniq[key] = r
     rows = list(uniq.values())
 
-    # 4) Flag priority companies
+    # 4) Flag priority companies using companies.txt (if present)
+    priority_companies_list = _load_priority_companies_list()
     for r in rows:
-        r["is_priority_company"] = company_name_match(r.get("company",""), PRIORITY_COMPANIES)
+        r["is_priority_company"] = company_name_match(r.get("company",""), priority_companies_list)
 
-    # 5) Export
+    # 5) Export datasets
     os.makedirs("data", exist_ok=True)
     with open("data/jobs.json","w",encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
     with open("data/jobs.csv","w",newline="",encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
-            "source","role_type","job_title","company","location","url","is_priority_company","date_posted","date_seen","notes"
+            "source","role_type","job_title","company","location","url",
+            "is_priority_company","date_posted","date_seen","notes"
         ])
         writer.writeheader()
         writer.writerows(rows)
