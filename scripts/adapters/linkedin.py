@@ -78,4 +78,140 @@ def _extract_jobs_from_html(html: str, role_type: str) -> List[Dict]:
                 or card.select_one("a.hidden-nested-link")  # sometimes company is a link
                 or card.select_one("h4")
             )
-            locat
+            location_el = (
+                card.select_one("span.job-search-card__location")
+                or card.select_one("span")
+            )
+            link_el = (
+                card.select_one("a.base-card__full-link")
+                or card.select_one("a.result-card__full-card-link")
+                or card.select_one("a")
+            )
+            time_el = (
+                card.select_one("time.job-search-card__listdate")
+                or card.select_one("time.job-search-card__listed-date")
+                or card.select_one("time")
+            )
+
+            # Minimal required fields
+            if not (title_el and company_el and location_el and link_el):
+                continue
+
+            title = title_el.get_text(strip=True)
+            company = company_el.get_text(strip=True)
+            location = location_el.get_text(strip=True)
+            url = link_el.get("href", "").strip()
+            date_posted = _parse_iso_date_from_time_tag(time_el)
+
+            # Normalize into your schema
+            rows.append({
+                "source": "linkedin",
+                "role_type": role_type,                   # 'Intern' or 'New Grad'
+                "job_title": title,
+                "company": company,
+                "location": location,
+                "url": url,
+                "date_posted": date_posted,               # 'YYYY-MM-DD' or None
+                "date_seen": datetime.utcnow().isoformat(timespec="seconds"),
+                "notes": "LinkedIn guest search",
+            })
+        except Exception:
+            # Swallow single-card parse errors to keep scraping robust
+            continue
+
+    return rows
+
+def fetch_linkedin_jobs(
+    job_titles: List[str],
+    locations: List[str],
+    role_type: str,
+    *,
+    max_pages_per_query: int = 4,
+    page_size_hint: int = 25,
+    request_headers: Optional[Dict[str, str]] = None,
+    sleep_between_requests: tuple[float, float] = (1.0, 2.0),
+) -> List[Dict]:
+    """
+    Public adapter function used by the pipeline.
+
+    Args:
+        job_titles: e.g., ["Mechanical Engineering Intern", "Software Engineering Intern"]
+        locations: e.g., ["San Francisco, CA", "New York, NY"]
+        role_type: "Intern" or "New Grad"
+        max_pages_per_query: number of "start" pages (25-ish results per page)
+        page_size_hint: LinkedIn typically returns ~25 items per page
+        request_headers: override default headers if desired
+        sleep_between_requests: (min,max) seconds randomized per request
+
+    Returns:
+        List of normalized rows (see schema above).
+    """
+    headers = dict(DEFAULT_HEADERS)
+    if request_headers:
+        headers.update(request_headers)
+
+    all_rows: List[Dict] = []
+    seen_urls: set[str] = set()
+
+    for title in job_titles:
+        for loc in locations:
+            start = 0
+            for page in range(max_pages_per_query):
+                url = _search_url(title, loc, start)
+                try:
+                    resp = requests.get(url, headers=headers, timeout=30)
+                    if resp.status_code == 429:
+                        # Rate-limited: back off a little longer
+                        time.sleep(10.0)
+                        continue
+                    resp.raise_for_status()
+                except Exception:
+                    # network / status error => move on to next query
+                    break
+
+                rows = _extract_jobs_from_html(resp.text, role_type=role_type)
+
+                # Dedup by URL immediately to reduce memory
+                unique_rows = []
+                for r in rows:
+                    u = r.get("url", "").strip()
+                    if not u or u in seen_urls:
+                        continue
+                    seen_urls.add(u)
+                    unique_rows.append(r)
+
+                if not unique_rows:
+                    # Probably no more results for this query
+                    break
+
+                all_rows.extend(unique_rows)
+
+                # Prepare next page
+                start += page_size_hint
+
+                # Polite random sleep
+                time.sleep(random.uniform(*sleep_between_requests))
+
+    return all_rows
+
+if __name__ == "__main__":
+    # Simple manual smoke test (prints counts only).
+    # You can run:  python scripts/adapters/linkedin.py
+    INTERN_TITLES = [
+        "Software Engineering Intern",
+        "Data Science Intern",
+    ]
+    NEWGRAD_TITLES = [
+        "Software Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+    ]
+    LOCS = ["San Francisco, CA", "New York, NY", "Seattle, WA"]
+
+    print("Testing intern fetch...")
+    intern_rows = fetch_linkedin_jobs(INTERN_TITLES, LOCS, role_type="Intern", max_pages_per_query=1)
+    print(f"Intern rows: {len(intern_rows)}")
+
+    print("Testing new grad fetch...")
+    ng_rows = fetch_linkedin_jobs(NEWGRAD_TITLES, LOCS, role_type="New Grad", max_pages_per_query=1)
+    print(f"New grad rows: {len(ng_rows)}")
