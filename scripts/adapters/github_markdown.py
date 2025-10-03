@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 GITHUB_REPOS = [
     # Intern lists
@@ -33,12 +33,60 @@ def role_type_from_repo(url: str) -> str:
 def _normalize_header(h: str) -> str:
     return (h or "").strip().lower()
 
+def _parse_date_cell(raw: str) -> str | None:
+    """
+    Accepts:
+      - 'YYYY-MM-DD'  -> keep as is
+      - 'Oct 01'      -> infer year; convert to YYYY-MM-DD
+    Returns ISO 'YYYY-MM-DD' or None if unparseable.
+    """
+    if not raw:
+        return None
+    raw = raw.strip()
+    # Try direct ISO first
+    try:
+        dt = datetime.strptime(raw.split("T")[0], "%Y-%m-%d")
+        return dt.date().isoformat()
+    except Exception:
+        pass
+
+    # Try 'Mon DD' (e.g., 'Oct 01')
+    try:
+        today = datetime.now(timezone.utc).date()
+        # Assume current year; if it lands in the future (by >1 day), roll back a year.
+        guessed = datetime.strptime(raw, "%b %d").date().replace(year=today.year)
+        if guessed > today + timedelta(days=1):
+            guessed = guessed.replace(year=today.year - 1)
+        return guessed.isoformat()
+    except Exception:
+        return None
+
+def _parse_age_cell(raw: str) -> str | None:
+    """
+    Accepts:
+      - '0d', '3d', '14d'  -> today - N days, as ISO 'YYYY-MM-DD'
+    """
+    if not raw:
+        return None
+    raw = raw.strip().lower()
+    # Common formats: '0d', '3d'
+    try:
+        if raw.endswith('d'):
+            days = int(''.join(ch for ch in raw if ch.isdigit()))
+            today = datetime.now(timezone.utc).date()
+            dt = today - timedelta(days=days)
+            return dt.isoformat()
+    except Exception:
+        pass
+    return None
+
 def fetch_tables_from_github():
     """
     Scrape markdown tables as rendered on GitHub:
       - company, title, location, link (<a href>)
-      - posted/date if the table truly includes a real date.
-    If no date is present, we leave date_posted=None (so we do NOT lie with "today").
+      - posted/date if the table includes either a Date column (e.g., 'Oct 01'/'2025-10-03')
+        or an Age column (e.g., '0d', '3d').
+    If no date is present, we leave date_posted=None (we do NOT default to 'today').
     """
     rows = []
 
@@ -69,7 +117,8 @@ def fetch_tables_from_github():
             idx_title  = find_col("role", "position", "title")
             idx_loc    = find_col("location")
             idx_link   = find_col("apply", "link", "url")
-            idx_date   = find_col("date", "posted", "post")
+            idx_date   = find_col("date", "posted")  # handles 'Date' column
+            idx_age    = find_col("age")             # handles 'Age' column like '0d'
 
             if idx_company is None or idx_link is None:
                 continue
@@ -85,6 +134,7 @@ def fetch_tables_from_github():
                         return ""
                     return tds[i].get_text(strip=True)
 
+                # Link:
                 link_url = ""
                 if idx_link is not None and idx_link < len(tds):
                     a = tds[idx_link].find("a", href=True)
@@ -98,16 +148,14 @@ def fetch_tables_from_github():
                 location = safe_text(idx_loc) if idx_loc is not None else ""
 
                 date_posted = None
+                # Prefer explicit Date column over Age.
                 if idx_date is not None and idx_date < len(tds):
                     raw = safe_text(idx_date)
-                    # Many repos put text like "2025-10-02"; accept only YYYY-MM-DD
-                    try:
-                        dt = raw.split("T")[0].strip()
-                        if len(dt) == 10:
-                            datetime.strptime(dt, "%Y-%m-%d")
-                            date_posted = dt
-                    except Exception:
-                        date_posted = None
+                    date_posted = _parse_date_cell(raw)
+
+                if date_posted is None and idx_age is not None and idx_age < len(tds):
+                    raw_age = safe_text(idx_age)
+                    date_posted = _parse_age_cell(raw_age)
 
                 rows.append({
                     "source": f"github:{urlparse(repo_url).path.strip('/')}",
@@ -116,8 +164,8 @@ def fetch_tables_from_github():
                     "company": company,
                     "location": location,
                     "url": link_url,
-                    "date_posted": date_posted,  # may be None; we will NOT set to "today"
-                    "date_seen": datetime.utcnow().isoformat(timespec="seconds"),
+                    "date_posted": date_posted,  # ISO YYYY-MM-DD or None
+                    "date_seen": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                     "notes": "",
                 })
 
