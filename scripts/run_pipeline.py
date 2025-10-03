@@ -4,6 +4,7 @@ from datetime import datetime
 from pathlib import Path
 from adapters.github_markdown import fetch_tables_from_github
 from adapters.linkedin import fetch_linkedin_jobs
+from adapters.intern_sites import fetch_intern_list, fetch_newgrad_jobs
 from adapters.common import company_name_match
 
 def _load_priority_companies_list() -> list[str]:
@@ -12,14 +13,17 @@ def _load_priority_companies_list() -> list[str]:
         return []
     return [ln.strip() for ln in p.read_text(encoding="utf-8").splitlines() if ln.strip()]
 
-# Customize your searches here
+# Customize searches for LinkedIn (these seed your focus terms)
 INTERN_TITLES = [
+    "Mechanical Engineering Intern",
     "Software Engineering Intern",
     "Data Science Intern",
     "Machine Learning Intern",
-    "AI Engineer Intern"
+    "AI Engineer Intern",
+    "Summer Intern 2026",
 ]
 NEWGRAD_TITLES = [
+    "Mechanical Engineer",
     "Software Engineer",
     "Software Developer",
     "Data Scientist",
@@ -27,8 +31,8 @@ NEWGRAD_TITLES = [
     "AI Engineer",
     "Quantitative Developer",
     "Quant Developer",
-    "New Grad Software Engineer",         # keyword seeded
-    "New Graduate Software Engineer 2026" # keyword seeded
+    "New Grad Software Engineer",
+    "New Graduate Software Engineer 2026",
 ]
 P1_LOCATIONS = [
     "San Francisco, CA", "New York, NY", "Austin, TX", "Boston, MA", "Seattle, WA",
@@ -45,7 +49,17 @@ def main():
     rows.extend(fetch_linkedin_jobs(INTERN_TITLES, P1_LOCATIONS, role_type="Intern"))
     rows.extend(fetch_linkedin_jobs(NEWGRAD_TITLES, P1_LOCATIONS, role_type="New Grad"))
 
-    # 3) Deduplicate by URL
+    # 3) New sites
+    try:
+        rows.extend(fetch_intern_list())
+    except Exception:
+        pass
+    try:
+        rows.extend(fetch_newgrad_jobs())
+    except Exception:
+        pass
+
+    # 4) De-duplicate by URL
     uniq = {}
     for r in rows:
         key = (r.get("url") or "").strip()
@@ -53,12 +67,12 @@ def main():
             uniq[key] = r
     rows = list(uniq.values())
 
-    # 4) Flag priority companies using companies.txt (if present)
+    # 5) Flag priority companies for datasets (not just display)
     priority_companies_list = _load_priority_companies_list()
     for r in rows:
         r["is_priority_company"] = company_name_match(r.get("company",""), priority_companies_list)
 
-    # 5) Export datasets
+    # 6) Export datasets
     os.makedirs("data", exist_ok=True)
     with open("data/jobs.json","w",encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
@@ -74,7 +88,7 @@ def main():
     with open("data/last_run.txt","w") as f:
         f.write(datetime.utcnow().isoformat(timespec="seconds"))
 
-    # 6) Build README
+    # 7) Build README (strict priority-only, Top 150 per role, last 4 days)
     from build_readme import write_readme
     write_readme(rows)
 
