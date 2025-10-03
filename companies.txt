@@ -1,0 +1,834 @@
+3Red Partners
+A Priori Investments
+Acadian Asset Management
+Akuna Capital
+Albatross Labs
+AlphaGrep
+AlphaSimplex
+Alphataraxia Management
+Alyeska Investment Group
+Ansatz Capital
+AQR Capital Management
+Aquatic Capital
+Arrowstreet Capital
+ART Advisors
+Aspect Capital
+Atto Trading
+AXQ Capital
+Balyasny Asset Management
+Banyan Alpha Investment
+Belvedere Trading
+BlackEdge Capital
+Bluefin Capital Management
+Blueshift Asset Management
+Boerboel Trading
+Boulder Hill Capital Management
+Brevan Howard
+Bridgewater Associates
+Cantor Fitzgerald
+Capital Fund Management
+Capital Markets Trading
+Capstone
+Capula
+Caxton Associates
+Centiva Capital
+Chicago Trading Company
+Cipher Capital
+Citadel
+ClearAlpha
+Consolidated Trading
+CQS
+Cubist
+Dark Forest
+DE Shaw
+Dolat Capital
+DRW
+Duality Group
+DV Trading
+Edgehog Trading
+Edgestream Partners
+Eisler Capital
+Elequin Capital
+Elk Capital Markets
+Emergent Trading
+Engineers Gate
+Eqvilent
+Ergoteles Capital
+Eschaton Trading
+Evergreen Statistical Trading
+ExodusPoint
+Five Rings
+Florin Court Capital
+Flow Traders
+Freestone Grove Partners
+GAM Systematic
+Garda Capital Partners
+Gelber Group
+Geneva Trading
+Geode Capital Management
+Graham Capital Management
+Graviton Research Capital
+Group One Trading
+GSA Capital Partners
+GTS
+HAP Capital
+Headlands Technologies
+Hudson Bay Capital
+Hudson River Trading
+IMC Financial Markets
+Jacobs Levy Equity Management
+Jain Global
+Jane Street
+Jocassee Quantitative
+Jump Trading
+Kepos Capital
+Kore Trading
+Kula Investments
+Laurion Capital Management
+Lord Abbett
+Lynx Asset Management
+Mako
+Man Group
+Mana Partners
+Marquette Partners
+Marshall Wace
+Maven Securities
+Millburn
+Monoceros
+Nebula Research & Development
+Old Mission Capital
+Optiver
+Paloma Partners
+PanAgora
+Parallax Volatility Advisers
+PDT Partners
+Peak6
+PGIM Quant Solutions
+Prime Trading
+QMS Capital Management
+Qsemble Capital Management
+Quadeye
+Quadrature
+Quantbot Technologies
+Quantbox Research
+Quantitative Investment Management
+Quantlab Financial
+Quantumrock Capital
+Qube Research & Technologies
+QVR Advisors
+Radix Trading
+Renaissance Technologies
+Rokos Capital Management
+Rosetta Analytics
+RSJ
+Schonfeld Strategic Advisors
+Segantii Capital Management
+Sensato Investors
+Seven Eight Capital
+Spark Investment Management
+Squarepoint Capital
+Stevens Capital Management
+Summit Securities Group
+Sumo
+Sunrise Futures
+Susquehanna International Group
+Systematica Investments
+Tanius Technology
+Teza Technologies
+TGS Management Company
+Tower Research Capital
+Tradebot
+Tradelink Holdings
+TransMarket Group
+Trexquant Investment
+Two Sigma
+Valkyrie Trading
+Vatic Investments
+Vector Trading
+Verition Fund Management
+Virtu Financial
+Volant Trading
+Voleon Group
+Voloridge Investment Management
+Volterra Technologies
+Walleye Capital
+WH Trading
+Wincent
+Wintermute
+Winton Capital Management
+Wolverine Trading
+WorldQuant
+Xantium
+XR Trading
+XTX Markets
+Accenture
+Accolite
+Acko
+Addepar
+Adobe
+Affirm
+Agoda
+Airbnb
+Airbus SE
+Airtable
+Airtel
+Airwallex
+AISPRY
+Akamai
+Akuna Capital
+Alchemy
+Alibaba
+Alo Yoga
+Altimetrik
+Amadeus
+Amazon
+AMD
+Amdocs
+American Century Investments
+American Express
+Anchorage Digital
+Anduril
+Anthropic
+Anyscale
+Apollo.io
+AppDynamics
+AppFolio
+Appian
+Apple
+Applied Intuition
+AQR Capital Management
+Arcesium
+Arena Investors
+Arista Networks
+Arm
+Arrowstreet Capital
+Asana
+AT&T
+athenahealth
+Atlassian
+Attentive
+Auctor
+Auctor AI
+Audible
+Aurora
+Autodesk
+Avalara
+Aven
+Aveva
+Avito
+AWS
+AXON
+BAE Systems
+Baidu
+Balyasny Asset Management
+BambooHR
+Bank of America
+Barclays
+BCG
+BCP
+Belvedere Trading
+Bentley
+Bentley Systems
+BetterUp
+BharatPe
+BHP
+BILL Holdings
+Bill.com
+BitGo
+BlackEdge Capital
+Blackhawk Network
+BlackRock
+BlackStone
+Blind
+blinkit
+Blizzard
+Block
+Blog
+Bloomberg
+Blue Origin
+Bluebeam
+BNP Paribas
+BNY Mellon
+Bolt
+Booking.com
+Booz Allen Hamilton
+Bosch
+Box
+Braze
+Brex
+Bridgewater Associates
+ByteDance
+Cadence
+Canonical
+Canva
+Capgemini
+Capital One
+Careem
+Cargill
+CARS24
+carwale
+Cashfree
+Caterpillar
+Cboe Global Markets
+CCC Information Service
+CDK Global
+CEDCOSS
+Celigo
+Cerebras
+Chevron
+Chewy
+Chime
+Circle
+Cisco
+Cisco Meraki
+Citigroup
+Citrix
+Clari
+Cleartrip
+Cloudera
+Cloudflare
+CME Group
+Coalition
+Codeium
+Coforge
+Cognizant
+Cohere
+Cohere.ai
+Cohesity
+Coinbase
+Collins Aerospace
+Comcast
+Commure
+Commvault
+Compass
+Confluent
+ConocoPhillips
+ConsultAdd
+Contact
+Corning
+CoStar Group
+Coupang
+Coursera
+Coveo
+CRED
+Credera
+Credit Karma
+Criteo
+CrowdStrike
+Cruise
+CTC
+CureFit
+CVENT
+D.E. Shaw
+Darwinbox
+Dassault Systemes
+Databricks
+Datadog
+Dataminr
+DE Shaw
+Delhivery
+Deliveroo
+Dell
+Deloitte
+DeltaX
+Deutsche Bank
+DevRev
+Devsinc
+Devtron
+DigitalOcean
+Directi
+Discord
+Disney
+Docusign
+DoorDash
+DP world
+DraftKings
+Draper
+Dream11
+Dropbox
+Druva
+DRW
+DTCC
+Dunzo
+Duolingo
+DV Trading
+DXC Technology
+E6data
+EarnIn
+EasyMile
+Eaton
+Ebay
+Edelweiss Group
+Ejada
+Elastic
+Electronic Arts
+Elevance Health
+Eli Lilly and Company
+EPAM Systems
+Epic Systems
+Ericsson
+Esri
+Ether.fi
+Etsy
+expand_all
+Expedia
+Expedia Group
+Expedition Technology
+EY
+F5 Networks
+Facebook
+FactSet
+Faire
+Fannie Mae
+Fastenal
+Fetch
+Fidelity
+Fifth Third Bank
+Figma
+Finance
+First American Financial
+Five Rings
+Fiverr
+Flexera
+Flexport
+Flipkart
+Flow Traders
+Fortinet
+fourkites
+FPT
+Freddie Mac
+Freecharge
+Freeform
+FreshWorks
+Fujitsu
+Gameskraft
+Garmin
+GE Digital
+GE Healthcare
+Gecko Robotics
+Geico
+General Dynamics Mission Systems
+General Motors
+Genesys
+Genpact
+Genuine Parts Company
+GitHub
+Glean
+GlobalFoundries
+GlossGenius
+GoDaddy
+Gojek
+Goldman Sachs
+Google
+Grab
+Grainger
+Grammarly
+Graviton
+Groupon
+Groww
+GrubHub
+GSA Capital
+GSN Games
+Guardian Life
+Guidewire
+Gusto
+Harness
+Harvey
+HashedIn
+HashiCorp
+HCL
+Hertz
+Hewlett Packard
+Highspot
+HiLabs
+Hive
+Hiver
+Hologic
+Hotstar
+Houzz
+HP
+HRT
+HSBC
+Huawei
+HubSpot
+Hudson River Trading
+Hugging Face
+Hulu
+Humana
+Humane
+Huntington Ingalls Industries
+IBM
+IIT Bombay
+Illumio
+IMC
+IMC Trading
+Indeed
+INDmoney
+Info Edge
+Informatica
+Infosys
+InMobi
+instabase
+Instacart
+Intel
+Interactive Brokers
+InterSystems
+Intuit
+IVP
+IXL
+IXL Learning
+J.P. Morgan
+Jane Street
+Jefferies
+josh technology
+JPMC
+Jump Trading
+Juniper Networks
+Juspay
+Kakao
+Karat
+Kayak
+Kensho
+keyboard_arrow_down
+KLA
+Klaviyo
+Komprise
+KPMG
+Kyndryl
+Larsen & Toubro
+Learn more
+Leidos
+Lendingkart Technologies
+Lenskart
+LexisNexis
+Licious
+Liftoff
+LINE
+LinkedIn
+LiveRamp
+Lockheed Martin
+LTI
+Lucid
+Lucid Motors
+Lumel Technologies
+Lumen
+Luxoft
+Lyft
+Machine Zone
+Mailchimp
+MakeMyTrip
+Mapbox
+MAQ Software
+MarketAxess
+MasterCard
+Match
+MathWorks
+McKinsey
+Media.net
+Medline
+Medtronic
+Meesho
+Mercari
+Merch
+Meta
+Microsoft
+Microstrategy
+Millennium
+Millennium Management
+Milwaukee Tool
+Mindtickle
+MindTree
+Miro
+Mitsogo
+Mixpanel
+Mobileye
+Modern Treasury
+Modular
+Moengage
+Moloco
+MongoDB
+Morgan Stanley
+Mountblue
+Moveworks
+MSCI
+Myntra
+Nagarro
+NASA
+Navi
+NCR
+NetEase
+Netflix
+Netskope
+Neuralink
+Nextdoor
+Niantic
+Nielsen
+Nike
+NinjaTrader
+Nokia
+Notion
+Nuro
+Nutanix
+Nvidia
+Nykaa
+Odoo
+Okta
+OKX
+Ola Cabs
+OpenAI
+Opendoor
+opentext
+Optiver
+Optum
+Oracle
+Otter.ai
+oyo
+Ozon
+Palantir
+Palantir Technologies
+Palo Alto Networks
+Patreon
+Pattern
+Paycom
+PayPal
+PayPay
+Paytm
+PayU
+PDT Partners
+peak6
+Peloton
+Persona Identities
+PhonePe
+Pimco
+Pinterest
+Plaid
+Playstation
+Plus AI
+Pocket Gems
+Point72
+Pony.ai
+PornHub
+Poshmark
+Postmates
+Pre-IPO
+Protiviti
+PTC
+Publicis Sapient
+PubMatic
+Pure Storage
+PwC
+Q2
+QBurst
+Qorvo
+Qualcomm
+Qualtrics
+QuantCo
+Qube Research & Technologies
+Quora
+Radix Trading
+Rakuten
+Ramp
+Rating
+Raymond James
+razorpay
+RBC
+Red Hat
+redbus
+Reddit
+Redfin
+Redhorse Corporation
+Regeneron Pharmaceuticals
+Relativity
+Relativity Space
+Remitly
+Rentathon
+RenTec
+Retool
+Revolut
+Riot Games
+Ripple
+Rippling
+Rivian
+Robinhood
+Roblox
+Roche
+Rokt
+Roku
+RSM US
+RTX
+Rubrik
+Salesforce
+Samsara
+Samsung
+SAP
+SberBank
+Scale AI
+SeatGeek
+Second Dinner
+Sentry
+ServiceNow
+ShareChat
+Shield AI
+Shopee
+Shopify
+Siemens
+SIG
+Sigma Computing
+Sigmoid
+Singlestore
+SiriusXM
+Sixth Street
+Slack
+Slice
+smartnews
+Smartsheet
+Snap
+Snapdeal
+Snorkel AI
+Snowflake
+Societe Generale
+SoFi
+Softwire
+SOTI
+SoundHound
+Southwest Airlines
+SP Group
+SpaceX
+SPAN
+Splunk
+Spotify
+Sprinklr
+Square
+Squarepoint Capital
+Squarespace
+StackAdapt
+Stackline
+StarTree
+Stats
+Stoke Space
+StoneX
+Strava
+Stripe
+Stryker
+Sumo Logic
+Swift
+Swiggy
+Synopsys
+T-Mobile
+T. Rowe Price
+Tableau
+Talos Trading
+Talroo
+Tanium
+Target
+Tech Mahindra
+Tejas Networks
+Tekion
+Telefonica
+Telus Digital
+Temporal Technologies
+Tencent
+Teradata
+Tesla
+Texas Instruments
+TextQL
+The Trade Desk
+The Voleon Group
+Thomson Reuters
+Tiger Analytics
+TikTok
+Tinder
+Tinkoff
+Toast
+Toptal
+Tower Research Capital
+Trexquant
+Trilogy
+Trilogy Innovations
+Tripadvisor
+Turing
+Turo
+Turvo
+TuSimple
+Twilio
+Twitch
+Twitter
+Two Sigma
+Uber
+UiPath
+Ultimate Kronos Group
+Uncountable
+Unity
+Upstart
+Urban Company
+USAA
+Valkyrie Trading
+Valve
+Vanguard
+Veeva Systems
+Vegrow
+Verily
+Verisk
+Veritas
+Verizon
+Verkada
+Viasat
+Vimeo
+Virtu Financial
+Virtusa
+Visa
+VMware
+Voldex
+Voloridge Investment Managment
+Walmart
+Walmart Global Tech
+Walmart Labs
+Warner Bros. Discovery
+Warnermedia
+WatchGuard
+Watershed
+Wayfair
+Waymo
+Wealthfront
+Wealthsimple
+Weiss Asset Management
+Wells Fargo
+WeRide
+Weride.ai
+Whatnot
+WillowTree
+WinZO
+Wipro
+Wise
+Wish
+Wissen Technology
+Wix
+Workday
+Workiva
+Works Applications
+WorldQuant
+WS Audiology
+X
+Yahoo
+Yahoo!
+Yandex
+Yelp
+Yext
+Zalando
+Zendesk
+Zenefits
+Zepto
+Zeta
+ZETA Associates
+Zillow
+ZipRecruiter
+Zluri
+Zoho
+Zomato
+Zoom
+Zoox
+Zopsmart
+ZS Associates
+ZScaler
+Zynga
+GoFundMe
