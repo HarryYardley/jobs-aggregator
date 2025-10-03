@@ -3,7 +3,8 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
-DATE_FMT = "%Y-%m-%d"
+DATE_FMT_STORAGE = "%Y-%m-%d"   # what adapters store
+DATE_FMT_DISPLAY = "%b %d"      # how README shows it (no year)
 
 # Display controls
 DISPLAY_DAYS = 4
@@ -39,7 +40,7 @@ def _to_date(s: str | None) -> datetime | None:
     if not s:
         return None
     try:
-        return datetime.strptime(s.split("T")[0], DATE_FMT)
+        return datetime.strptime(s.split("T")[0], DATE_FMT_STORAGE)
     except Exception:
         return None
 
@@ -56,9 +57,8 @@ def _keyword_hit(title: str, role_type: str) -> bool:
     return False
 
 def _best_posted_date(row) -> datetime | None:
-    # Prefer per-row posted date; do NOT fallback to date_seen (to avoid faking "today").
-    d1 = _to_date(row.get("date_posted"))
-    return d1
+    # For README, we only use real posted dates (not date_seen)
+    return _to_date(row.get("date_posted"))
 
 def _filter_recent(rows, days=4):
     cutoff = datetime.utcnow() - timedelta(days=days)
@@ -73,10 +73,10 @@ def _display_date(row) -> str:
     d = _best_posted_date(row)
     if not d:
         return ""
-    return d.strftime(DATE_FMT)
+    return d.strftime(DATE_FMT_DISPLAY)
 
 def _score_row(row, priority_companies: set[str]) -> tuple:
-    pr = 1 if _is_priority_company(row.get("company",""), priority_companies) or row.get("is_priority_company") else 0
+    pr = 1 if (_is_priority_company(row.get("company",""), priority_companies) or row.get("is_priority_company")) else 0
     kw = 1 if _keyword_hit(row.get("job_title",""), row.get("role_type","")) else 0
     d = _best_posted_date(row) or datetime.min
     return (-pr, -kw, _days_ago(d), (row.get("company") or "").lower())
@@ -107,7 +107,7 @@ def write_readme(rows):
     by_role = Counter(r["role_type"] for r in rows)
     by_source = Counter((r["source"] or "").split(":")[0] for r in rows)
 
-    # Keep only rows that actually have a posting date and are recent
+    # Keep only rows with a real posted date and that are recent
     dated_rows = [r for r in rows if _best_posted_date(r) is not None]
     recent = _filter_recent(dated_rows, days=DISPLAY_DAYS)
 
