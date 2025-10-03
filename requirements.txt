@@ -1,8 +1,13 @@
+# Core parsing & scraping
 requests
 beautifulsoup4
-pandas
-markdown-it-py
-python-dateutil
-PyYAML
 lxml
 html5lib
+
+# Data wrangling
+pandas
+python-dateutil
+PyYAML
+
+# For markdown parsing if needed later
+markdown-it-py
