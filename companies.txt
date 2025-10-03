@@ -178,8 +178,6 @@ Akamai
 Akuna Capital
 Alchemy
 Alibaba
-Alo Yoga
-Altimetrik
 Amadeus
 Amazon
 AMD
@@ -192,7 +190,6 @@ Anthropic
 Anyscale
 Apollo.io
 AppDynamics
-AppFolio
 Appian
 Apple
 Applied Intuition
@@ -214,16 +211,11 @@ Aurora
 Autodesk
 Avalara
 Aven
-Aveva
-Avito
 AWS
 AXON
-BAE Systems
 Baidu
 Balyasny Asset Management
 BambooHR
-Bank of America
-Barclays
 BCG
 BCP
 Belvedere Trading
@@ -231,33 +223,24 @@ Bentley
 Bentley Systems
 BetterUp
 BharatPe
-BHP
 BILL Holdings
 Bill.com
 BitGo
 BlackEdge Capital
-Blackhawk Network
 BlackRock
 BlackStone
 Blind
-blinkit
-Blizzard
 Block
 Blog
 Bloomberg
-Blue Origin
 Bluebeam
-BNP Paribas
-BNY Mellon
 Bolt
 Booking.com
-Booz Allen Hamilton
 Bosch
 Box
 Braze
 Brex
 Bridgewater Associates
-ByteDance
 Cadence
 Canonical
 Canva
@@ -265,12 +248,8 @@ Capgemini
 Capital One
 Careem
 Cargill
-CARS24
-carwale
 Cashfree
 Caterpillar
-Cboe Global Markets
-CCC Information Service
 CDK Global
 CEDCOSS
 Celigo
@@ -287,7 +266,6 @@ Clari
 Cleartrip
 Cloudera
 Cloudflare
-CME Group
 Coalition
 Codeium
 Coforge
@@ -306,7 +284,6 @@ ConocoPhillips
 ConsultAdd
 Contact
 Corning
-CoStar Group
 Coupang
 Coursera
 Coveo
@@ -402,12 +379,8 @@ Freeform
 FreshWorks
 Fujitsu
 Gameskraft
-Garmin
-GE Digital
-GE Healthcare
 Gecko Robotics
 Geico
-General Dynamics Mission Systems
 General Motors
 Genesys
 Genpact
@@ -435,7 +408,6 @@ Gusto
 Harness
 Harvey
 HashedIn
-HashiCorp
 HCL
 Hertz
 Hewlett Packard
@@ -443,13 +415,11 @@ Highspot
 HiLabs
 Hive
 Hiver
-Hologic
 Hotstar
 Houzz
 HP
 HRT
 HSBC
-Huawei
 HubSpot
 Hudson River Trading
 Hugging Face
@@ -480,7 +450,6 @@ IXL Learning
 J.P. Morgan
 Jane Street
 Jefferies
-josh technology
 JPMC
 Jump Trading
 Juniper Networks
@@ -489,7 +458,6 @@ Kakao
 Karat
 Kayak
 Kensho
-keyboard_arrow_down
 KLA
 Klaviyo
 Komprise
@@ -577,7 +545,6 @@ OKX
 Ola Cabs
 OpenAI
 Opendoor
-opentext
 Optiver
 Optum
 Oracle
@@ -602,7 +569,6 @@ PhonePe
 Pimco
 Pinterest
 Plaid
-Playstation
 Plus AI
 Pocket Gems
 Point72
@@ -619,10 +585,8 @@ Pure Storage
 PwC
 Q2
 QBurst
-Qorvo
 Qualcomm
 Qualtrics
-QuantCo
 Qube Research & Technologies
 Quora
 Radix Trading
@@ -651,11 +615,9 @@ Rippling
 Rivian
 Robinhood
 Roblox
-Roche
 Rokt
 Roku
 RSM US
-RTX
 Rubrik
 Salesforce
 Samsara
