@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from urllib.parse import urlparse
 from datetime import datetime
+from io import StringIO
 
 GITHUB_REPOS = [
     # Intern lists
@@ -36,7 +37,7 @@ def fetch_tables_from_github():
         r.raise_for_status()
         # Heuristic: extract all tables on the page
         try:
-            tables = pd.read_html(r.text)
+            tables = pd.read_html(StringIO(r.text), flavor="lxml")
         except ValueError:
             tables = []
 
