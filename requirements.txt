@@ -9,5 +9,5 @@ pandas
 python-dateutil
 PyYAML
 
-# For markdown parsing if needed later
+# Markdown parsing (optional; handy if you ingest raw .md later)
 markdown-it-py
