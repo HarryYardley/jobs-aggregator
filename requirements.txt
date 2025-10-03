@@ -4,3 +4,5 @@ pandas
 markdown-it-py
 python-dateutil
 PyYAML
+lxml
+html5lib
