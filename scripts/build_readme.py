@@ -3,7 +3,12 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
-DATE_FMT = "%Y-%m-%d"  # for date_posted parsing
+DATE_FMT = "%Y-%m-%d"
+
+# Display controls
+DISPLAY_DAYS = 4
+TOP_N = 150
+DISPLAY_ONLY_PRIORITY = True  # strict filter per your request
 
 INTERN_TERMS = [
     "intern", "summer intern", "summer 2026", "2026 intern", "internship"
@@ -28,13 +33,12 @@ def _is_priority_company(company: str, priorities: set[str]) -> bool:
     if not company:
         return False
     lc = company.lower()
-    return any(p.lower() in lc for p in priorities)  # simple contains; you already dedupe tokens earlier if desired
+    return any(p.lower() in lc for p in priorities)
 
 def _to_date(s: str | None) -> datetime | None:
     if not s:
         return None
     try:
-        # expected YYYY-MM-DD
         return datetime.strptime(s.split("T")[0], DATE_FMT)
     except Exception:
         return None
@@ -52,12 +56,9 @@ def _keyword_hit(title: str, role_type: str) -> bool:
     return False
 
 def _best_posted_date(row) -> datetime | None:
-    # Prefer date_posted; fallback to date_seen
+    # Prefer per-row posted date; do NOT fallback to date_seen (to avoid faking "today").
     d1 = _to_date(row.get("date_posted"))
-    if d1:
-        return d1
-    d2 = _to_date(row.get("date_seen"))
-    return d2
+    return d1
 
 def _filter_recent(rows, days=4):
     cutoff = datetime.utcnow() - timedelta(days=days)
@@ -75,7 +76,6 @@ def _display_date(row) -> str:
     return d.strftime(DATE_FMT)
 
 def _score_row(row, priority_companies: set[str]) -> tuple:
-    # Sort key (higher priority first): priority_company desc, keyword_hit desc, recency asc (fewer days), company asc
     pr = 1 if _is_priority_company(row.get("company",""), priority_companies) or row.get("is_priority_company") else 0
     kw = 1 if _keyword_hit(row.get("job_title",""), row.get("role_type","")) else 0
     d = _best_posted_date(row) or datetime.min
@@ -87,7 +87,7 @@ def _md_link(text: str, url: str) -> str:
     return f"[{text or 'Link'}]({url})"
 
 def _row_md(r):
-    pr = "✅" if r.get("is_priority_company") else ("✅" if r.get("__priority_match") else "")
+    pr = "✅" if (r.get("is_priority_company") or r.get("__priority_match")) else ""
     company = r.get("company") or ""
     title   = r.get("job_title") or ""
     loc     = r.get("location") or ""
@@ -98,7 +98,7 @@ def _row_md(r):
 def write_readme(rows):
     priority_companies = _load_priority_companies()
 
-    # ensure is_priority_company set if companies.txt exists
+    # Mark priority for display
     for r in rows:
         if _is_priority_company(r.get("company",""), priority_companies):
             r["__priority_match"] = True
@@ -107,23 +107,28 @@ def write_readme(rows):
     by_role = Counter(r["role_type"] for r in rows)
     by_source = Counter((r["source"] or "").split(":")[0] for r in rows)
 
-    # Recent subset (past 4 days)
-    recent = _filter_recent(rows, days=4)
+    # Keep only rows that actually have a posting date and are recent
+    dated_rows = [r for r in rows if _best_posted_date(r) is not None]
+    recent = _filter_recent(dated_rows, days=DISPLAY_DAYS)
 
     interns = [r for r in recent if r.get("role_type") == "Intern"]
     newgrads = [r for r in recent if r.get("role_type") == "New Grad"]
 
+    if DISPLAY_ONLY_PRIORITY and priority_companies:
+        interns = [r for r in interns if _is_priority_company(r.get("company",""), priority_companies)]
+        newgrads = [r for r in newgrads if _is_priority_company(r.get("company",""), priority_companies)]
+
     interns_sorted = sorted(interns, key=lambda r: _score_row(r, priority_companies))
     newgrads_sorted = sorted(newgrads, key=lambda r: _score_row(r, priority_companies))
 
-    interns_top = interns_sorted[:50]
-    newgrads_top = newgrads_sorted[:50]
+    interns_top = interns_sorted[:TOP_N]
+    newgrads_top = newgrads_sorted[:TOP_N]
 
     def section_table(title, subset):
         lines = []
         lines.append(f"### {title}")
         if not subset:
-            lines.append("_No recent postings in the last 4 days._")
+            lines.append("_No recent postings in the last 4 days that matched your company list._")
             lines.append("")
             return lines
         lines.append("| Company | Title | Location | Posted | Link | Priority |")
@@ -138,14 +143,14 @@ def write_readme(rows):
     md.append(f"Last updated: **{datetime.utcnow().isoformat(timespec='seconds')}Z**")
     md.append("")
     md.append("## Summary")
-    md.append(f"- Total listings parsed (all time in repo): **{total}**")
+    md.append(f"- Total listings parsed (all sources): **{total}**")
     md.append(f"- Intern: **{by_role.get('Intern',0)}** | New Grad: **{by_role.get('New Grad',0)}**")
     md.append(f"- Sources: {', '.join(f'{k} ({v})' for k,v in by_source.items())}")
     md.append("")
     md.append("Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**")
     md.append("")
-    md.extend(section_table("Top 50 Intern postings (last 4 days, priority & keywords first)", interns_top))
-    md.extend(section_table("Top 50 New Grad postings (last 4 days, priority & keywords first)", newgrads_top))
+    md.extend(section_table(f"Top {TOP_N} Intern postings (last {DISPLAY_DAYS} days, priority & keywords first)", interns_top))
+    md.extend(section_table(f"Top {TOP_N} New Grad postings (last {DISPLAY_DAYS} days, priority & keywords first)", newgrads_top))
 
     with open("README.md","w",encoding="utf-8") as f:
         f.write("\n".join(md))
