@@ -1,30 +1,30 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2025-12-09T18:48:54Z**
+Last updated: **2025-12-10T02:10:10Z**
 
 ## Summary
-- Total listings parsed (all sources): **4858**
-- Intern (before filtering): **1867** | New Grad (before filtering): **2991**
-- Sources: linkedin (4858)
+- Total listings parsed (all sources): **4859**
+- Intern (before filtering): **1866** | New Grad (before filtering): **2993**
+- Sources: linkedin (4859)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Cadence | Software Engineer Intern | Austin, TX | Dec 09 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-cadence-4319175168?position=10&pageNum=0&refId=8DRVnhobrW4i2Gv%2BZnUUhQ%3D%3D&trackingId=ASgjqkyJweScJ%2B7JC2UWWQ%3D%3D) | ☐ |
-| Reddit, Inc. | Machine Learning Engineering Intern - Core ML (Summer 2026) | San Francisco, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineering-intern-core-ml-summer-2026-at-reddit-inc-4342656532?position=3&pageNum=0&refId=pnBPD9GsQZ%2FUmlOyJ19sZA%3D%3D&trackingId=43%2BF5hkh52Y18hsvpZBW6Q%3D%3D) | ☐ |
-| The Walt Disney Company | Software Engineering Intern, RenderMan - Summer 2026 | Emeryville, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-renderman-summer-2026-at-the-walt-disney-company-4326200727?position=2&pageNum=2&refId=M1chexlP58h6Ctr7S%2F6s1A%3D%3D&trackingId=NTF%2Fhx%2Frj4YbO2YezGA57g%3D%3D) | ☐ |
-| CME Group | Data Science Intern - Summer 2026 - Fall 2026 | Chicago, IL | Dec 08 | [Link](https://www.linkedin.com/jobs/view/data-science-intern-summer-2026-fall-2026-at-cme-group-4342745353?position=10&pageNum=2&refId=SL98ROYorimpeugievCdvQ%3D%3D&trackingId=%2BOlrt2o3Le4r7YWqYyfeZw%3D%3D) | ☐ |
-| General Dynamics Mission Systems | Software Engineering Intern | Dedham, MA | Dec 08 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-general-dynamics-mission-systems-4325852707?position=7&pageNum=7&refId=AqVIBSFb%2B0%2F%2FhFVYEB5RpA%3D%3D&trackingId=ib74cBvqc5dnX0wnWndHUQ%3D%3D) | ☐ |
-| MongoDB | 2026 - Software Engineering Intern, AMER | Austin, TX | Dec 08 | [Link](https://www.linkedin.com/jobs/view/2026-software-engineering-intern-amer-at-mongodb-4300045431?position=2&pageNum=5&refId=AQmgk1ARaL1v5WzNlovyrA%3D%3D&trackingId=djPGHmfvyWimyD0XJvA6XA%3D%3D) | ☐ |
-| Tesla | Internship, Fullstack Software Engineer, Fleetnet (Summer 2026) | Palo Alto, CA | Dec 08 | [Link](https://www.linkedin.com/jobs/view/internship-fullstack-software-engineer-fleetnet-summer-2026-at-tesla-4342695884?position=5&pageNum=7&refId=PE9CuYtyZqK67tBZHcDrxQ%3D%3D&trackingId=xODi9GqSBWgafOIaegG1mQ%3D%3D) | ☐ |
-| Intuit | Summer 2026 Full Stack Engineering Intern | Mountain View, CA | Dec 07 | [Link](https://www.linkedin.com/jobs/view/summer-2026-full-stack-engineering-intern-at-intuit-4331342385?position=9&pageNum=7&refId=PE9CuYtyZqK67tBZHcDrxQ%3D%3D&trackingId=CebUiuFDyqM0OSfcXNF7QA%3D%3D) | ☐ |
-| Intuit | Summer 2026 Front End Engineering Intern | Mountain View, CA | Dec 07 | [Link](https://www.linkedin.com/jobs/view/summer-2026-front-end-engineering-intern-at-intuit-4331343316?position=10&pageNum=7&refId=PE9CuYtyZqK67tBZHcDrxQ%3D%3D&trackingId=COZuA1OQCiWhs9dQagPMiQ%3D%3D) | ☐ |
-| SeatGeek | Software Engineer - Internship | New York, NY | Dec 07 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-at-seatgeek-4307571879?position=9&pageNum=2&refId=dbb68Ru3N2gb406WP778JA%3D%3D&trackingId=HLRuUUfTIgnnjbQBX9GTJg%3D%3D) | ☐ |
+| Arm | Intern Machine Learning Engineer | San Jose, CA | Dec 10 | [Link](https://www.linkedin.com/jobs/view/intern-machine-learning-engineer-at-arm-4326570110?position=4&pageNum=7&refId=trru4oCqzrzYC8E4NjiKgg%3D%3D&trackingId=ikHPQfGKdmgAcPQJkW4hLg%3D%3D) | ☐ |
+| Docusign | Software Engineer Intern | Seattle, WA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-docusign-4326485483?position=2&pageNum=0&refId=qkxgMAfRdaSljsDlYhkeeA%3D%3D&trackingId=bnkkiqG6UH8kxkijlFeGcA%3D%3D) | ☐ |
+| Realtor.com | Software Engineer Intern | Austin, TX | Dec 09 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-realtor-com-4326397452?position=2&pageNum=0&refId=2YwT60mbLKIEJo9PyEJIJQ%3D%3D&trackingId=hZ747Z0Le4tn0ihema1YUw%3D%3D) | ☐ |
+| Reddit, Inc. | Machine Learning Engineering Intern - Core ML (Summer 2026) | San Francisco, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineering-intern-core-ml-summer-2026-at-reddit-inc-4342656532?position=3&pageNum=0&refId=C6g9pE8oholWRIKBh32tkQ%3D%3D&trackingId=b30fUETObUzS4jP1E7mB%2Bg%3D%3D) | ☐ |
+| Tesla | Internship, Robotics Software Engineer, C++ Generalist, Optimus (Summer 2026) | Palo Alto, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/internship-robotics-software-engineer-c%2B%2B-generalist-optimus-summer-2026-at-tesla-4342973961?position=7&pageNum=7&refId=aez2TVjtKpsoNsfu1uxYJA%3D%3D&trackingId=i6gxSNJHoiu67aIgXKcslg%3D%3D) | ☐ |
+| The Walt Disney Company | Software Engineering Intern, RenderMan - Summer 2026 | Emeryville, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-renderman-summer-2026-at-the-walt-disney-company-4326200727?position=2&pageNum=2&refId=6LeP3HIH74mtacBuHa7x%2Fg%3D%3D&trackingId=wi4q8jiRo2a6PwkwryApfg%3D%3D) | ☐ |
+| General Dynamics Mission Systems | Software Engineering Intern | Dedham, MA | Dec 08 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-general-dynamics-mission-systems-4325852707?position=6&pageNum=7&refId=2VrKonZilqyTarZpr%2F5avQ%3D%3D&trackingId=D9a%2BPFfTdhoSpB7snrO4tg%3D%3D) | ☐ |
+| MongoDB | 2026 - Software Engineering Intern, AMER | Austin, TX | Dec 08 | [Link](https://www.linkedin.com/jobs/view/2026-software-engineering-intern-amer-at-mongodb-4300045431?position=8&pageNum=5&refId=JD5TAGSpv6eAqbUWtKUovQ%3D%3D&trackingId=0LwF8hGhJQ4l9bFrWGuMnA%3D%3D) | ☐ |
+| Tesla | Internship, Fullstack Software Engineer, Fleetnet (Summer 2026) | Palo Alto, CA | Dec 08 | [Link](https://www.linkedin.com/jobs/view/internship-fullstack-software-engineer-fleetnet-summer-2026-at-tesla-4342695884?position=5&pageNum=7&refId=aez2TVjtKpsoNsfu1uxYJA%3D%3D&trackingId=j1IE0TXzx%2FagTyAAtVIezQ%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Axon.ai | Backend Engineer, New Grad | Palo Alto, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/backend-engineer-new-grad-at-axon-ai-4341136271?position=9&pageNum=0&refId=o0gwyv3e3cFoaLbQZrfYhg%3D%3D&trackingId=0IB8QLaUmKRgSDJAiVKJ%2Bg%3D%3D) | ☐ |
-| Circle | New Grad Software Engineer, Backend 2026 | Greater Chicago Area | Dec 08 | [Link](https://www.linkedin.com/jobs/view/new-grad-software-engineer-backend-2026-at-circle-4341170879?position=3&pageNum=7&refId=LvLp7%2Fg2vvkGDNAxy43kmA%3D%3D&trackingId=wZ1YXg2Wo%2BraOAKJLYTcEA%3D%3D) | ☐ |
+| Axon.ai | Backend Engineer, New Grad | Palo Alto, CA | Dec 09 | [Link](https://www.linkedin.com/jobs/view/backend-engineer-new-grad-at-axon-ai-4341136271?position=9&pageNum=0&refId=xc2mh3vmpjKWFMlpk49Rmw%3D%3D&trackingId=wvYCQ4DuleYJpTml2VvY6A%3D%3D) | ☐ |
+| Old Mission | College Graduates - Full-Time - Junior Quantitative Trader (2026) | Chicago, IL | Dec 09 | [Link](https://www.linkedin.com/jobs/view/college-graduates-full-time-junior-quantitative-trader-2026-at-old-mission-4342902452?position=2&pageNum=2&refId=5VDaorOLiM5S9IIU1iZBIQ%3D%3D&trackingId=%2BKm0052wFuzyRYYJVdjl5Q%3D%3D) | ☐ |
+| Circle | New Grad Software Engineer, Backend 2026 | Austin, Texas Metropolitan Area | Dec 08 | [Link](https://www.linkedin.com/jobs/view/new-grad-software-engineer-backend-2026-at-circle-4340990874?position=1&pageNum=0&refId=casSVOrUTOIOK%2FVCtSLO7g%3D%3D&trackingId=ZSzAhDiJ9oHHH8HgHniKyA%3D%3D) | ☐ |
