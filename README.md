@@ -1,35 +1,33 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-04-15T19:38:18Z**
+Last updated: **2026-04-16T03:11:51Z**
 
 ## Summary
-- Total listings parsed (all sources): **4701**
-- Intern (before filtering): **1733** | New Grad (before filtering): **2968**
-- Sources: linkedin (4701)
+- Total listings parsed (all sources): **4678**
+- Intern (before filtering): **1722** | New Grad (before filtering): **2956**
+- Sources: linkedin (4678)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Applied Materials | Software Developer Intern | Santa Clara, CA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-developer-intern-at-applied-materials-4390004601?position=1&pageNum=2&refId=DwGIPTRyZ%2BzE%2FNROUgdqmg%3D%3D&trackingId=NkC2m69EiNf5DTsmxE1NCA%3D%3D) | ☐ |
-| CACI International Inc | Software Engineer Intern - Summer 2026 | Austin, TX | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2026-at-caci-international-inc-4399907577?position=7&pageNum=0&refId=4ryTyRJkhUmnzHXr0V7dJw%3D%3D&trackingId=NFniyyG8Kg2f2LVjQiX02Q%3D%3D) | ☐ |
-| Dassault Systèmes | INTERNSHIP Core Modeling AI/ML Software Engineer | Waltham, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/internship-core-modeling-ai-ml-software-engineer-at-dassault-syst%C3%A8mes-4402240048?position=9&pageNum=0&refId=LLZptK9PKucIhLMOVeJx3Q%3D%3D&trackingId=otZA%2FG%2FdEK14vrI26zTfwQ%3D%3D) | ☐ |
-| Nutanix | Software Engineering Intern (Undergraduate ONLY; Summer 2026) | San Jose, CA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-undergraduate-only-summer-2026-at-nutanix-4402219529?position=9&pageNum=2&refId=mX0s5ASE2KRYWzAyUlQJfg%3D%3D&trackingId=YG3llV67cgX2Z92iHSijmw%3D%3D) | ☐ |
-| SS&C Technologies | Software Engineer Intern - Co-op | Waltham, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-co-op-at-ss-c-technologies-4402570424?position=6&pageNum=2&refId=DQz1s6db6parh4g07ew5UQ%3D%3D&trackingId=LjzQ6MBIYfJySGf9SaxKyQ%3D%3D) | ☐ |
-| State Street | Software Engineer Intern -6 Month intern- July- Dec | Burlington, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-6-month-intern-july-dec-at-state-street-4398340051?position=4&pageNum=0&refId=w54OTvP%2FVMjbwj6Ffs9u6w%3D%3D&trackingId=ZSzImfkI94MuIBOclGUNlA%3D%3D) | ☐ |
-| Strata Decision Technology | Intern, Software Engineering | Chicago, IL | Apr 15 | [Link](https://www.linkedin.com/jobs/view/intern-software-engineering-at-strata-decision-technology-4395201183?position=4&pageNum=0&refId=kgOwBD1UmDkm7Xi4s7J6fw%3D%3D&trackingId=RizaVqU7HWPmavEtPqWX2g%3D%3D) | ☐ |
-| BAE Systems, Inc. | Supply Chain Data Science Internship (Summer 2026) | Austin, TX | Apr 14 | [Link](https://www.linkedin.com/jobs/view/supply-chain-data-science-internship-summer-2026-at-bae-systems-inc-4387513566?position=7&pageNum=7&refId=Wy%2B%2FLi1Egk90v0NkzpXVMw%3D%3D&trackingId=yPHlJckPUPfrPqyLC9AWyQ%3D%3D) | ☐ |
-| Nuro | Software Engineer, AI Platform - Intern | Mountain View, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018?position=1&pageNum=0&refId=SwNeQzzedRRE70%2F74UpkGw%3D%3D&trackingId=NSMMh7lKTozuBJpwqtXZCQ%3D%3D) | ☐ |
-| PTC | Software Engineer Intern | Boston, MA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-ptc-4402025277?position=9&pageNum=0&refId=w54OTvP%2FVMjbwj6Ffs9u6w%3D%3D&trackingId=FsbwudIcE8m0%2By9BXRIyww%3D%3D) | ☐ |
-| Realtor.com | Software Engineer Intern | Austin, TX | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-realtor-com-4400771024?position=4&pageNum=0&refId=4ryTyRJkhUmnzHXr0V7dJw%3D%3D&trackingId=JvnHwJwd9gWTvqYcQxmAew%3D%3D) | ☐ |
-| SAP | SAP iXp Intern - AI Machine Learning | Palo Alto, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/sap-ixp-intern-ai-machine-learning-at-sap-4400782204?position=4&pageNum=0&refId=%2F4WjsZDmYQx1J300lF5eMQ%3D%3D&trackingId=jaUkKf4FACMnW67dcTUurg%3D%3D) | ☐ |
-| TetraMem - Accelerate The World | US 2026 Software - Machine Learning Intern | San Jose, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/us-2026-software-machine-learning-intern-at-tetramem-accelerate-the-world-4401115833?position=6&pageNum=0&refId=%2F4WjsZDmYQx1J300lF5eMQ%3D%3D&trackingId=9A1uZNzAGw1QQJVpq732XQ%3D%3D) | ☐ |
-| Adobe | 2026 AI/ML Intern - Machine Learning Engineer Intern | San Jose, CA | Apr 13 | [Link](https://www.linkedin.com/jobs/view/2026-ai-ml-intern-machine-learning-engineer-intern-at-adobe-4322591372?position=3&pageNum=2&refId=ZYQ3dxI2571IHX25DjNdxg%3D%3D&trackingId=8Hi4p6E4tVqyCITa5pakQQ%3D%3D) | ☐ |
-| Aquatic Capital Management | Software Engineer, Intern (Summer 2027) | Chicago, IL | Apr 13 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-aquatic-capital-management-4401365297?position=2&pageNum=0&refId=kgOwBD1UmDkm7Xi4s7J6fw%3D%3D&trackingId=6qGYMUstD48hDrOrxXQWVw%3D%3D) | ☐ |
-| Magna International | Software Engineering Summer Intern | Lowell, MA | Apr 13 | [Link](https://www.linkedin.com/jobs/view/software-engineering-summer-intern-at-magna-international-4401340374?position=2&pageNum=2&refId=7FtZ8FKPOGk4b6QmQGln9Q%3D%3D&trackingId=nS%2Bq7x0r06nzHPnPnao3XQ%3D%3D) | ☐ |
-| Tesla | Internship, Engineering Automation Software Engineer, Vehicle Engineering (Fall 2026) | Palo Alto, CA | Apr 13 | [Link](https://www.linkedin.com/jobs/view/internship-engineering-automation-software-engineer-vehicle-engineering-fall-2026-at-tesla-4401398656?position=7&pageNum=5&refId=kEVeWB6LHQX6dtQrpF%2FPag%3D%3D&trackingId=Nzh7bb4Xc86pbdoqEdLjWg%3D%3D) | ☐ |
-| Zscaler | Software Engineer Intern, Software Development | San Jose, CA | Apr 13 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-software-development-at-zscaler-4401368980?position=2&pageNum=0&refId=w7eRoW4tSr4NAgUklfJ5BA%3D%3D&trackingId=DXczqGio2aYd%2BdgV87Fjpw%3D%3D) | ☐ |
+| Neos Consulting Group | AI/ML Engineer II - Intern | Austin, TX | Apr 16 | [Link](https://www.linkedin.com/jobs/view/ai-ml-engineer-ii-intern-at-neos-consulting-group-4401836477?position=3&pageNum=2&refId=obNq4XdjhDpZyrN6AwLujg%3D%3D&trackingId=6UIbiEDP0UeGLA3LkDIL%2FQ%3D%3D) | ☐ |
+| Applied Materials | Software Developer Intern | Santa Clara, CA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-developer-intern-at-applied-materials-4390004601?position=4&pageNum=2&refId=794SOPLlqZKtK1SbyQTLcA%3D%3D&trackingId=vs2Sf0U16zU8wIB%2FZkLq%2BQ%3D%3D) | ☐ |
+| CACI International Inc | Software Engineer Intern - Summer 2026 | Austin, TX | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2026-at-caci-international-inc-4399907577?position=4&pageNum=0&refId=TWvVECkf3iUaf5X71yXiTw%3D%3D&trackingId=RB2v5UcNQQFBiYR54Ki0sA%3D%3D) | ☐ |
+| Rakuten Advertising | Intern - AI Engineer | San Mateo, CA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/intern-ai-engineer-at-rakuten-advertising-4402578940?position=1&pageNum=5&refId=kx8%2F3rQYozGBG501MSj8bw%3D%3D&trackingId=ALg3B4yC5foJ8Gr4C5pdUA%3D%3D) | ☐ |
+| SAV (Scale Asia Ventures) | AI Engineer Intern | Palo Alto, CA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/ai-engineer-intern-at-sav-scale-asia-ventures-4400797076?position=4&pageNum=2&refId=b9HLf7i8ELhbFe%2B7bC2Jrg%3D%3D&trackingId=6gKDpKft6IuyxhkY2xiqgg%3D%3D) | ☐ |
+| SS&C Technologies | Software Engineer Intern - Co-op | Waltham, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-co-op-at-ss-c-technologies-4402570424?position=5&pageNum=0&refId=iSzjvcyWDoP8LNCKXXJMVw%3D%3D&trackingId=jmDM3o0ihYaN%2BL%2F5bIHYNg%3D%3D) | ☐ |
+| SS&C Technologies | Data Scientist Spring Intern— Agentic AI | Waltham, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/data-scientist-spring-intern%E2%80%94-agentic-ai-at-ss-c-technologies-4402587233?position=9&pageNum=2&refId=gh76B%2F7a0qmj2WUQjscNJg%3D%3D&trackingId=TY6EQNGwIKFMyrNq7meMXQ%3D%3D) | ☐ |
+| State Street | Software Engineer Intern -6 Month intern- July- Dec | Burlington, MA | Apr 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-6-month-intern-july-dec-at-state-street-4398340051?position=6&pageNum=0&refId=iSzjvcyWDoP8LNCKXXJMVw%3D%3D&trackingId=So6f0N9Z%2B%2FU%2FtHZivba7Xg%3D%3D) | ☐ |
+| Strata Decision Technology | Intern, Software Engineering | Chicago, IL | Apr 15 | [Link](https://www.linkedin.com/jobs/view/intern-software-engineering-at-strata-decision-technology-4395201183?position=4&pageNum=0&refId=WYTIUhDwhIwcOia5jO0N7A%3D%3D&trackingId=QUWnC85Lww%2BAfaTSnNCKdw%3D%3D) | ☐ |
+| BAE Systems, Inc. | Supply Chain Data Science Internship (Summer 2026) | Austin, TX | Apr 14 | [Link](https://www.linkedin.com/jobs/view/supply-chain-data-science-internship-summer-2026-at-bae-systems-inc-4387513566?position=5&pageNum=7&refId=vBJkAndgAq82HQK1hGTJZA%3D%3D&trackingId=ekDm%2FRV1P8e7OIeFl%2FVRNQ%3D%3D) | ☐ |
+| IBM | Data Scientist Intern | Austin, TX | Apr 14 | [Link](https://www.linkedin.com/jobs/view/data-scientist-intern-at-ibm-4399797263?position=4&pageNum=0&refId=QrQRQ60Uwhb5r3H%2BcbqvRw%3D%3D&trackingId=l3TWmQpk66iieOrZQW%2BQyA%3D%3D) | ☐ |
+| Nuro | Software Engineer, AI Platform - Intern | Mountain View, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018?position=1&pageNum=0&refId=Vd30e0pzK36K2NQTTiX%2FUQ%3D%3D&trackingId=KVpIa%2FxFRcTrIqQ7oH4aaA%3D%3D) | ☐ |
+| PTC | Software Engineer Intern | Boston, MA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-ptc-4402025277?position=3&pageNum=2&refId=ekHHAlBQvhLSv7NtZerqdg%3D%3D&trackingId=DxiCawPZLdJmV39m%2B%2BD2dA%3D%3D) | ☐ |
+| SAP | SAP iXp Intern - AI Machine Learning | Palo Alto, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/sap-ixp-intern-ai-machine-learning-at-sap-4400782204?position=1&pageNum=0&refId=u6LMgU9hTyCBwIGiAd8ZSA%3D%3D&trackingId=oUsnU4nd4I%2BtaLnz1amMSg%3D%3D) | ☐ |
+| TetraMem - Accelerate The World | Software Engineering Intern – Internal Lab Asset Tracking Tool | San Jose, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-%E2%80%93-internal-lab-asset-tracking-tool-at-tetramem-accelerate-the-world-4401123094?position=8&pageNum=5&refId=pPkD95ECopSybITzRqnOjg%3D%3D&trackingId=QWdUxaPTApNCxueAwKxRHg%3D%3D) | ☐ |
+| TetraMem - Accelerate The World | US 2026 Software - Machine Learning Intern | San Jose, CA | Apr 14 | [Link](https://www.linkedin.com/jobs/view/us-2026-software-machine-learning-intern-at-tetramem-accelerate-the-world-4401115833?position=6&pageNum=2&refId=kuuLOavIv72M47seNblOjg%3D%3D&trackingId=MaYUG3OXCvSgIqOqF3lABw%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 _No results matching your constraints in the last few days._
