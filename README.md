@@ -1,25 +1,25 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-05-27T16:09:21Z**
+Last updated: **2026-05-27T20:37:17Z**
 
 ## Summary
-- Total listings parsed (all sources): **4693**
-- Intern (before filtering): **1590** | New Grad (before filtering): **3103**
-- Sources: linkedin (4693)
+- Total listings parsed (all sources): **4691**
+- Intern (before filtering): **1600** | New Grad (before filtering): **3091**
+- Sources: linkedin (4691)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Arlo Technologies, Inc. | Software Engineer Intern - Generalist | Milpitas, CA | May 26 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-generalist-at-arlo-technologies-inc-4416853850?position=3&pageNum=0&refId=smdq9QvF7frlAN6TZplNDw%3D%3D&trackingId=vpgJlzWs6jCbUByjUsPsKA%3D%3D) | ☐ |
-| Rapiscan Systems | Software Engineering Intern | Billerica, MA | May 26 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-rapiscan-systems-4416833857?position=10&pageNum=0&refId=8e81qdvOLdv5QvSL1PwDUw%3D%3D&trackingId=YJJaAG7iE%2B3xMYz5iiUsUA%3D%3D) | ☐ |
-| Docusign | Product Data Science Intern | Seattle, WA | May 25 | [Link](https://www.linkedin.com/jobs/view/product-data-science-intern-at-docusign-4377986246?position=1&pageNum=5&refId=1ImPI2A9igAncYDhpef0WA%3D%3D&trackingId=kHNN8HvWe%2FyMz%2FxLJlZz%2Fw%3D%3D) | ☐ |
-| Firefly Aerospace | Internship - Software Engineering - Fall 2026 | Cedar Park, TX | May 25 | [Link](https://www.linkedin.com/jobs/view/internship-software-engineering-fall-2026-at-firefly-aerospace-4415201932?position=9&pageNum=0&refId=mR5owVluhqWY4n8kntKRQQ%3D%3D&trackingId=abyR7hZB0V%2FIds43AxyeLQ%3D%3D) | ☐ |
-| Pronto Networks, Inc | AI Engineer Intern - GTM / Sales Automation | Walnut Creek, CA | May 25 | [Link](https://www.linkedin.com/jobs/view/ai-engineer-intern-gtm-sales-automation-at-pronto-networks-inc-4417831043?position=6&pageNum=5&refId=SJBcEga%2BYhsQKqzl3DKuYA%3D%3D&trackingId=fI8Mc8%2Bz4m1fyjP%2BKuXuTw%3D%3D) | ☐ |
+| Barrett Solutions | Software Engineer Intern | Ann Arbor, MI | May 27 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-barrett-solutions-4419884877?position=2&pageNum=0&refId=8gxSIHD93l1tgAUdx6HwFw%3D%3D&trackingId=okrvGCTRGDLFasvwEwk9tg%3D%3D) | ☐ |
+| Gelber Group LLC | Software Engineering Internship (Backoffice Team) - Summer 2026 | Chicago, IL | May 27 | [Link](https://www.linkedin.com/jobs/view/software-engineering-internship-backoffice-team-summer-2026-at-gelber-group-llc-4408568707?position=9&pageNum=0&refId=jFQWdZUDlrhxhxTt3fMoaA%3D%3D&trackingId=zMfaRS5YQcOSI6tSg2jjDQ%3D%3D) | ☐ |
+| Arlo Technologies, Inc. | Software Engineer Intern - Generalist | Milpitas, CA | May 26 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-generalist-at-arlo-technologies-inc-4416853850?position=3&pageNum=0&refId=2mhY7TeMOLx7Cf6uL8Lbbg%3D%3D&trackingId=c2eaDhdEurUmpS%2F56CrFaQ%3D%3D) | ☐ |
+| Rapiscan Systems | Software Engineering Intern | Billerica, MA | May 26 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-rapiscan-systems-4416833857?position=2&pageNum=0&refId=IGXVH5dfVXHY84Z51PfloA%3D%3D&trackingId=YQPUQ1DJd1KDUX5HRZwTWQ%3D%3D) | ☐ |
+| Docusign | Product Data Science Intern | Seattle, WA | May 25 | [Link](https://www.linkedin.com/jobs/view/product-data-science-intern-at-docusign-4377986246?position=1&pageNum=2&refId=vurYzUuY8HW7VPOzNimqKQ%3D%3D&trackingId=lgGNe0%2BB1p65r4MScCiGjQ%3D%3D) | ☐ |
+| Pronto Networks, Inc | AI Engineer Intern - GTM / Sales Automation | Walnut Creek, CA | May 25 | [Link](https://www.linkedin.com/jobs/view/ai-engineer-intern-gtm-sales-automation-at-pronto-networks-inc-4417831043?position=6&pageNum=7&refId=jdFxbmY%2FzIqMAO25RaOx%2FA%3D%3D&trackingId=R1%2FqaIkubQ2W4JWLg7%2F3yQ%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Amazon Web Services (AWS) | 2026 Annapurna Labs at AWS, Early Career (US) - Machine Learning Systems & Silicon Innovation | Seattle, WA | May 25 | [Link](https://www.linkedin.com/jobs/view/2026-annapurna-labs-at-aws-early-career-us-machine-learning-systems-silicon-innovation-at-amazon-web-services-aws-4370107914?position=10&pageNum=2&refId=tBVhXfRWgkiJHhOgljQIxQ%3D%3D&trackingId=zK3EVmsQpO5TEQD%2BKmLuHg%3D%3D) | ☐ |
-| Nuro | Software Engineer, AI Platform - New Grad | Mountain View, CA | May 25 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-new-grad-at-nuro-4317707969?position=2&pageNum=0&refId=MoieoDhY8Fy6yvj%2FNUikdA%3D%3D&trackingId=6t4PILdMp6W5WYkMwAA%2F%2Bw%3D%3D) | ☐ |
+| Nuro | Software Engineer, AI Platform - New Grad | Mountain View, CA | May 25 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-new-grad-at-nuro-4317707969?position=2&pageNum=0&refId=ksvJXnmSDMY%2B3z1uZ5LJlA%3D%3D&trackingId=p41bwt6N6ffTqZGOrJ%2BZtw%3D%3D) | ☐ |
