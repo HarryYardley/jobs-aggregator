@@ -1,21 +1,21 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-06-21T20:02:20Z**
+Last updated: **2026-06-22T05:01:37Z**
 
 ## Summary
-- Total listings parsed (all sources): **4592**
-- Intern (before filtering): **1531** | New Grad (before filtering): **3061**
-- Sources: linkedin (4592)
+- Total listings parsed (all sources): **4728**
+- Intern (before filtering): **1557** | New Grad (before filtering): **3171**
+- Sources: linkedin (4728)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Snowflake | Software Engineer Intern (Infrastructure Automation) - Fall 2026 | Menlo Park, CA | Jun 21 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-infrastructure-automation-fall-2026-at-snowflake-4411792790?position=4&pageNum=2&refId=6szKa6pcr12FY0MoS%2Fg5pg%3D%3D&trackingId=UQz8q%2F4DQtOXME3BEnCShA%3D%3D) | ☐ |
-| Excelitas Technologies Corp. | Intern | HVP-Software Engineering | Billerica, MA | Jun 19 | [Link](https://www.linkedin.com/jobs/view/intern-hvp-software-engineering-at-excelitas-technologies-corp-4409983635?position=7&pageNum=0&refId=yeIAJf7YDlGQcMdFKxI5%2Bw%3D%3D&trackingId=TsissEk5qnZmSsyYWR9%2F8A%3D%3D) | ☐ |
-| NOSO LABS(YC S25) | AI Engineer Intern | San Francisco Bay Area | Jun 19 | [Link](https://www.linkedin.com/jobs/view/ai-engineer-intern-at-noso-labs-yc-s25-4427874649?position=1&pageNum=0&refId=ilFMTnhszkedZcFLGRexPA%3D%3D&trackingId=ZDWMnq%2BK1rJzRdfCxvZkmw%3D%3D) | ☐ |
-| SK hynix memory solutions America Inc. | Software Engineer Intern | San Jose, CA | Jun 19 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-sk-hynix-memory-solutions-america-inc-4420688486?position=10&pageNum=0&refId=tmdsSwQe0rVyhguXIFDgrw%3D%3D&trackingId=3cbwghmGOKzBBX%2FDHbHBFQ%3D%3D) | ☐ |
+| Snowflake | Software Engineer Intern (Infrastructure Automation) - Fall 2026 | Menlo Park, CA | Jun 21 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-infrastructure-automation-fall-2026-at-snowflake-4411792790?position=4&pageNum=2&refId=vItIqqhseQT8GRklRUB1Uw%3D%3D&trackingId=PavPy3N5CRww2bMQw9IM1w%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
-_No results matching your constraints in the last few days._
+| Company | Title | Location | Posted | Link | Applied |
+|---|---|---|---|---|---|
+| Unity South APAC (SEA, ANZ, IND Subcont.) | Machine Learning Engineer, Offline Infrastructure (Entry-Level / New Grad) | Bellevue, WA | Jun 21 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-offline-infrastructure-entry-level-new-grad-at-unity-south-apac-sea-anz-ind-subcont-4428556917?position=2&pageNum=7&refId=j35NDtgylZU0K6if3TKz1Q%3D%3D&trackingId=Ke00qLPVJoCUsOQ29NzgfQ%3D%3D) | ☐ |
+| Butler Labs | Software Engineer, New Grad (AI) | San Francisco, CA | Jun 20 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-ai-at-butler-labs-4431320136?position=1&pageNum=2&refId=jWBzgTqwdKRvWONGg0ENbg%3D%3D&trackingId=ckxtaKe48lkSqNB6NQekRw%3D%3D) | ☐ |
