@@ -1,31 +1,30 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-06-30T20:20:15Z**
+Last updated: **2026-07-01T04:36:08Z**
 
 ## Summary
-- Total listings parsed (all sources): **4840**
-- Intern (before filtering): **1572** | New Grad (before filtering): **3268**
-- Sources: linkedin (4840)
+- Total listings parsed (all sources): **4527**
+- Intern (before filtering): **1475** | New Grad (before filtering): **3052**
+- Sources: linkedin (4527)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Notion | Software Engineer Intern (Fall 2026) | San Francisco, CA | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-at-notion-4398329491?position=1&pageNum=0&refId=SNn2wDDvjPB0vUEv0T2cmw%3D%3D&trackingId=C1ebrWF04P7wI9LghLx%2BHg%3D%3D) | ☐ |
-| Palantir Technologies | Forward Deployed Software Engineer, Internship - Commercial | New York, NY | Jun 30 | [Link](https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-internship-commercial-at-palantir-technologies-4434137562?position=9&pageNum=0&refId=JKg0I3niomufnFzuTLNZSg%3D%3D&trackingId=EH2SGV3szemLVOhzl9Pljw%3D%3D) | ☐ |
-| Saronic Technologies | Software Engineer Intern (Fall 2026) | Austin, TX | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-at-saronic-technologies-4412855076?position=2&pageNum=0&refId=ZqfI3pUICoNyFg3a8qE1AQ%3D%3D&trackingId=Us1FPgXF7jBEsmzeHbP39w%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, Internship - Infrastructure | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-infrastructure-at-palantir-technologies-4434137561?position=6&pageNum=0&refId=zXZWfpJdCf1TmKmEajsS2A%3D%3D&trackingId=NMNA9bpIWA7CvivNx50VOw%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, Internship | Palo Alto, CA | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-at-palantir-technologies-4434151279?position=9&pageNum=0&refId=M2GiGqWNdNh3jtCyPBDiVQ%3D%3D&trackingId=XNLAHPvg9gqVFAwf5Id4oA%3D%3D) | ☐ |
-| NVIDIA | Software Engineering Intern, JAX - Fall 2026 | Santa Clara, CA | Jun 28 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-jax-fall-2026-at-nvidia-4405391788?position=10&pageNum=0&refId=M2GiGqWNdNh3jtCyPBDiVQ%3D%3D&trackingId=aUomMBqGPO3vxXcXCip8CA%3D%3D) | ☐ |
-| Quadrillion Labs | Software Engineering Intern | New York, NY | Jun 28 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-quadrillion-labs-4434267332?position=3&pageNum=0&refId=zXZWfpJdCf1TmKmEajsS2A%3D%3D&trackingId=p6V4qeeVcJE%2BDCtxVadjfg%3D%3D) | ☐ |
+| Palantir Technologies | Forward Deployed Software Engineer, Internship - Commercial | Chicago, IL | Jul 01 | [Link](https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-internship-commercial-at-palantir-technologies-4434383302?position=5&pageNum=0&refId=X2M0lXd5WehnOR9vlPOxaA%3D%3D&trackingId=uhMSKRNCRLwGjKILNJfwiw%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, Internship | Palo Alto, CA | Jul 01 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-at-palantir-technologies-4434151279?position=9&pageNum=0&refId=xCkWQC1Duf0I1iBQvbEe7A%3D%3D&trackingId=2ITAqIlkiJJ8a8TBBaNn3A%3D%3D) | ☐ |
+| Notion | Software Engineer Intern (Fall 2026) | San Francisco, CA | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-at-notion-4398329491?position=1&pageNum=0&refId=S78mf9uI6HeCX%2Fm%2Fn6%2BiAA%3D%3D&trackingId=7bnl80oQTFjcyqPi8DPDwQ%3D%3D) | ☐ |
+| Saronic Technologies | Software Engineer Intern (Fall 2026) | Austin, TX | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-fall-2026-at-saronic-technologies-4412855076?position=3&pageNum=0&refId=SsdF4WQbatIJKUNBnUYXzA%3D%3D&trackingId=5MaktrgnPI9%2BB4Jq3omN8w%3D%3D) | ☐ |
+| Tesla | Internship, Machine Learning Engineer, Factory Software (Fall 2026) | Fremont, CA | Jun 30 | [Link](https://www.linkedin.com/jobs/view/internship-machine-learning-engineer-factory-software-fall-2026-at-tesla-4435326472?position=8&pageNum=0&refId=VuGezluBwvpky7pIkbnhIA%3D%3D&trackingId=dfytsCBvOCZZ2B6gMttUsQ%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, Internship - Infrastructure | Palo Alto, CA | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-infrastructure-at-palantir-technologies-4434140506?position=10&pageNum=0&refId=wlcusBqDiCXW9Zd67kwkTg%3D%3D&trackingId=bARiIlxZVmujid9Ed%2FTn5g%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Notion | Software Engineer, New Grad (AI) | San Francisco, CA | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-ai-at-notion-4407498584?position=2&pageNum=0&refId=yZ%2FfBcmDYN2eKURadAjtMA%3D%3D&trackingId=1HGudxmVLbPKnT47105jSg%3D%3D) | ☐ |
-| SeatGeek | Software Engineer - New Grad | New York, NY | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-seatgeek-4405162929?position=1&pageNum=0&refId=UstCBBoI94Pw1hb1oTt7Hw%3D%3D&trackingId=87xqAfiV%2BAdvzbHrAW6icg%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, New Grad | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-palantir-technologies-4434138603?position=2&pageNum=0&refId=UstCBBoI94Pw1hb1oTt7Hw%3D%3D&trackingId=PyifmXahKxXBKeOmxxbXBA%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, New Grad - Infrastructure | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-infrastructure-at-palantir-technologies-4434135733?position=3&pageNum=0&refId=UstCBBoI94Pw1hb1oTt7Hw%3D%3D&trackingId=IdrJA%2B%2B3xoGB%2BsK%2F44P4eQ%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, New Grad - Production Infrastructure | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4434145450?position=4&pageNum=0&refId=UstCBBoI94Pw1hb1oTt7Hw%3D%3D&trackingId=PJmbyzKVmU8SPBQo8zc1lQ%3D%3D) | ☐ |
-| Wall Street Quants | New Grad Full-Time Quantitative Researcher | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/new-grad-full-time-quantitative-researcher-at-wall-street-quants-4434419554?position=6&pageNum=0&refId=hN2VDhJwZrfwERXMCAYb7w%3D%3D&trackingId=Hq8fqZ2rW%2FqKw%2FzD3sK0Yg%3D%3D) | ☐ |
+| Notion | Software Engineer, New Grad (AI) | San Francisco, CA | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-ai-at-notion-4407498584?position=2&pageNum=0&refId=Y3Kf5tVf21DqBm6EB174Cg%3D%3D&trackingId=J9TTqmD7gytFqEuriIVMow%3D%3D) | ☐ |
+| SeatGeek | Software Engineer - New Grad | New York, NY | Jun 30 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-seatgeek-4405162929?position=3&pageNum=0&refId=Mghhbimc1iZaJG0Q9G7eHg%3D%3D&trackingId=mCRtmMSHmcxFs9QF5TiZcg%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, New Grad - Infrastructure | Palo Alto, CA | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-infrastructure-at-palantir-technologies-4434149314?position=5&pageNum=0&refId=sApBYwiBFdK2dQCaluDvQg%3D%3D&trackingId=U3s06uVMcj6MPPDisdbpbQ%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, New Grad - Production Infrastructure | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4434145450?position=2&pageNum=0&refId=U%2Frrdo8pkfBukpVomyxRBQ%3D%3D&trackingId=xwzrr7Px5xWejct%2FSp5N%2FQ%3D%3D) | ☐ |
+| Palantir Technologies | Forward Deployed Software Engineer, New Grad - Commercial | Chicago, IL | Jun 29 | [Link](https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-new-grad-commercial-at-palantir-technologies-4434143447?position=3&pageNum=0&refId=4ZzsEdfZ2FZfn1FmhDSBkA%3D%3D&trackingId=F%2BHDSpydP3xunOl0EZMfNw%3D%3D) | ☐ |
+| Wall Street Quants | New Grad Full-Time Quantitative Researcher | New York, NY | Jun 29 | [Link](https://www.linkedin.com/jobs/view/new-grad-full-time-quantitative-researcher-at-wall-street-quants-4434419554?position=7&pageNum=0&refId=cBkbiMFFS4ckxpbQPXkpOw%3D%3D&trackingId=Tm0Bwh5lMiRoZaJbxunSLg%3D%3D) | ☐ |
