@@ -1,22 +1,21 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-07-27T19:53:38Z**
+Last updated: **2026-07-28T03:00:29Z**
 
 ## Summary
-- Total listings parsed (all sources): **4816**
-- Intern (before filtering): **1584** | New Grad (before filtering): **3232**
-- Sources: linkedin (4816)
+- Total listings parsed (all sources): **5031**
+- Intern (before filtering): **1648** | New Grad (before filtering): **3383**
+- Sources: linkedin (5031)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Neuralink | Machine Learning Engineer Intern | San Francisco, CA | Jul 26 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-neuralink-4416712707?position=1&pageNum=5&refId=AB%2BeFGrAGiyzIqlqIp170w%3D%3D&trackingId=PZxrO5v4fybjnkPsA3Y7lw%3D%3D) | ☐ |
-| Cohere | Software Engineer Intern (Fall / Winter 2026) | San Francisco, CA | Jul 25 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-fall-winter-2026-at-cohere-4407974013?position=6&pageNum=0&refId=qe0GnB7tEpwlRXLv4TR22g%3D%3D&trackingId=dYYPp1RIkuN0f0qqPRUCNw%3D%3D) | ☐ |
-| Neuralink | Software Engineer Intern, Infrastructure | San Francisco, CA | Jul 25 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-infrastructure-at-neuralink-4416593935?position=4&pageNum=2&refId=ho%2FcrrFX0ZFRyqc7IAIk6w%3D%3D&trackingId=ZptW5wFeP4WbTkDQLG94tQ%3D%3D) | ☐ |
-| Neuralink | Software Engineer Intern, Internal Apps | Austin, TX | Jul 25 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-internal-apps-at-neuralink-4416593239?position=3&pageNum=0&refId=kAadM8bL2WCscTiwEM%2BJow%3D%3D&trackingId=zUF83sejNKVnvjszNqHU%2Fw%3D%3D) | ☐ |
-| Oracle | OCI Software Engineer Intern - OVIP | Austin, TX | Jul 25 | [Link](https://www.linkedin.com/jobs/view/oci-software-engineer-intern-ovip-at-oracle-4413673139?position=9&pageNum=0&refId=kAadM8bL2WCscTiwEM%2BJow%3D%3D&trackingId=KwKzLErF7YBcWRnvkfdITQ%3D%3D) | ☐ |
+| Bosch USA | Powertrain Controls Software Engineering Intern (6-Months) | Farmington Hills, MI | Jul 27 | [Link](https://www.linkedin.com/jobs/view/powertrain-controls-software-engineering-intern-6-months-at-bosch-usa-4443200074?position=1&pageNum=0&refId=92Lkm0dtX5U1BJ5vFZOSUw%3D%3D&trackingId=VjmGN0TFg9Y2w3eWBdepRw%3D%3D) | ☐ |
+| CCC Intelligent Solutions | Applied AI Engineering Intern | Chicago, IL | Jul 27 | [Link](https://www.linkedin.com/jobs/view/applied-ai-engineering-intern-at-ccc-intelligent-solutions-4446154117?position=2&pageNum=0&refId=Dm1ziWXj1efgzFw9i7zeBw%3D%3D&trackingId=jSoyY8ZZ%2BHoyRQISD1zRbg%3D%3D) | ☐ |
+| Neuralink | Machine Learning Engineer Intern | San Francisco, CA | Jul 26 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-at-neuralink-4416712707?position=2&pageNum=5&refId=yHSVqEDFT9JPAwjfz4rMaQ%3D%3D&trackingId=Jnzm1z0vXJbY55tWpfWE3A%3D%3D) | ☐ |
+| Ramp | Software Engineer Internship, Android | New York, NY | Jul 26 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-android-at-ramp-4388142055?position=8&pageNum=0&refId=arpjUyZc5F%2Bh3sWE%2FQN1bw%3D%3D&trackingId=mvNFTxyM8VmVivfi9RIsBQ%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 _No results matching your constraints in the last few days._
