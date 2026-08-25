@@ -1,23 +1,20 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-08-24T19:03:17Z**
+Last updated: **2026-08-25T01:42:41Z**
 
 ## Summary
-- Total listings parsed (all sources): **6158**
-- Intern (before filtering): **2201** | New Grad (before filtering): **3957**
-- Sources: linkedin (6158)
+- Total listings parsed (all sources): **6180**
+- Intern (before filtering): **2220** | New Grad (before filtering): **3960**
+- Sources: linkedin (6180)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Microsoft | AI Software Engineering Intern - Edge | Redmond, WA | Aug 22 | [Link](https://www.linkedin.com/jobs/view/ai-software-engineering-intern-edge-at-microsoft-4457818511?position=9&pageNum=0&refId=JnMEpWLMgVdck9k50RDzCA%3D%3D&trackingId=EAcnYqQ6G8u4o05UAwK4nw%3D%3D) | ☐ |
-| New York Life | 2027 Technology, Data, AI & Ventures Summer Internship Program - AI Engineer (MLOps) Intern | New York, NY | Aug 22 | [Link](https://www.linkedin.com/jobs/view/2027-technology-data-ai-ventures-summer-internship-program-ai-engineer-mlops-intern-at-new-york-life-4447568035?position=7&pageNum=2&refId=gwRsGIRtAaPqIWJ7Clpt7A%3D%3D&trackingId=hM2vFebGDjd%2Bx2a0J1To%2Bw%3D%3D) | ☐ |
-| Nuro | Software Engineer, AI Platform - Intern | Mountain View, CA | Aug 22 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018?position=4&pageNum=2&refId=gMCe5v7jwuScOIKkGLUNvw%3D%3D&trackingId=fd%2BIqLgRVhGhu65kNq9g7w%3D%3D) | ☐ |
+| AMD | 2027 Undergrad Software Engineer Intern/Co-op | Austin, TX | Aug 24 | [Link](https://www.linkedin.com/jobs/view/2027-undergrad-software-engineer-intern-co-op-at-amd-4454154668?position=10&pageNum=0&refId=oWety6IgMmlJUB6ABOxI%2BQ%3D%3D&trackingId=bSPDfR%2BNX90D98Oe4%2BmyHw%3D%3D) | ☐ |
+| AMD | 2027 Undergrad Machine Learning (ML)/ Artificial Intelligence (AI) intern/co-op | Austin, TX | Aug 24 | [Link](https://www.linkedin.com/jobs/view/2027-undergrad-machine-learning-ml-artificial-intelligence-ai-intern-co-op-at-amd-4454166262?position=7&pageNum=2&refId=qYWhfIKppKg%2BWGeeRCy%2F3Q%3D%3D&trackingId=4KiZy%2FT66VsQk4GvyY7wXg%3D%3D) | ☐ |
+| IBM | Software Developer Intern-Austin-TX | Austin, TX | Aug 24 | [Link](https://www.linkedin.com/jobs/view/software-developer-intern-austin-tx-at-ibm-4456533031?position=7&pageNum=0&refId=oWety6IgMmlJUB6ABOxI%2BQ%3D%3D&trackingId=HuDYs%2BsuAG1GLBSmoa15eQ%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
-| Company | Title | Location | Posted | Link | Applied |
-|---|---|---|---|---|---|
-| Cadence | Adams Application Software Developer (Recent Grad 2026) | Livonia, MI | Aug 22 | [Link](https://www.linkedin.com/jobs/view/adams-application-software-developer-recent-grad-2026-at-cadence-4447199150?position=5&pageNum=5&refId=hkMF10YArwcCD6P9%2FWOHEQ%3D%3D&trackingId=KoItM1jTnUQ14%2FF4KLl6Pw%3D%3D) | ☐ |
-| Cadence | Adams MultiBody Dynamics Application Software Developer (Recent Grad 2026) | Livonia, MI | Aug 22 | [Link](https://www.linkedin.com/jobs/view/adams-multibody-dynamics-application-software-developer-recent-grad-2026-at-cadence-4447185926?position=5&pageNum=5&refId=caNKTzgEinfO%2B8k568sqjQ%3D%3D&trackingId=sPd1GPEKEmkja9O6Nkk6mg%3D%3D) | ☐ |
+_No results matching your constraints in the last few days._
