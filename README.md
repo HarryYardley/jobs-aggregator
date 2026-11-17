@@ -1,37 +1,34 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-11-16T15:46:11Z**
+Last updated: **2026-11-17T02:11:08Z**
 
 ## Summary
-- Total listings parsed (all sources): **5324**
-- Intern (before filtering): **1960** | New Grad (before filtering): **3364**
-- Sources: linkedin (5324)
+- Total listings parsed (all sources): **5825**
+- Intern (before filtering): **2150** | New Grad (before filtering): **3675**
+- Sources: linkedin (5825)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Hewlett Packard Enterprise | Software Engineer Intern | Andover, MA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-hewlett-packard-enterprise-4490613190?position=7&pageNum=0&refId=y2oL063MoVAC9r8s7hnFuQ%3D%3D&trackingId=OQ7pGJy%2BqxltP%2BfmYUIxPQ%3D%3D) | ☐ |
-| Hewlett Packard Enterprise | Data Science Intern | Sunnyvale, CA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/data-science-intern-at-hewlett-packard-enterprise-4490613389?position=4&pageNum=0&refId=YV0eGgkQdwJ5jVDJEcTYGg%3D%3D&trackingId=5P%2BEzUE8uCSgqhMyZrUw%2BQ%3D%3D) | ☐ |
-| DV Trading LLC | Quantitative Research Intern - Summer 2027 (DV Equities) | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/quantitative-research-intern-summer-2027-dv-equities-at-dv-trading-llc-4464889669?position=5&pageNum=2&refId=MEssh%2BKiFB28WJSt%2BGflzQ%3D%3D&trackingId=MEEXmkE60kTFhh2kHnoJ2A%3D%3D) | ☐ |
-| General Motors | 2027 Summer Intern – Machine Learning Engineer, AV/AI Platform | Sunnyvale, CA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/2027-summer-intern-%E2%80%93-machine-learning-engineer-av-ai-platform-at-general-motors-4475088301?position=8&pageNum=2&refId=ytsvKUZ9X8ZvZhQiGHETLA%3D%3D&trackingId=sMYDXIoV95T31onp1XGkDA%3D%3D) | ☐ |
-| Lyft | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/data-science-intern-algorithms-summer-2027-sf-nyc-at-lyft-4466341405?position=5&pageNum=0&refId=J5GR%2BV8%2F9RUd%2FUnijcxDmQ%3D%3D&trackingId=W7zYc%2BaJj%2BW%2FQjXuL0lVqg%3D%3D) | ☐ |
-| Microsoft | Software Engineering Intern - CTJ - TS | Redmond, WA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-ctj-ts-at-microsoft-4466490278?position=10&pageNum=2&refId=34a%2B%2FqC1uqmkxtF48sh9EQ%3D%3D&trackingId=4ytHJNUfrzKTj9ju3Snajw%3D%3D) | ☐ |
-| Nuro | Software Engineer, AI Platform - Intern | Mountain View, CA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018?position=4&pageNum=7&refId=y2SREHTZFk21nRseTHEz5A%3D%3D&trackingId=2o2ErJp1T2px72RlXs%2F9dg%3D%3D) | ☐ |
-| Camping World | Data Engineering Intern | Chicago, IL | Nov 14 | [Link](https://www.linkedin.com/jobs/view/data-engineering-intern-at-camping-world-4489343621?position=2&pageNum=5&refId=s58henyxu9Fmd%2BsKWxkZXg%3D%3D&trackingId=GPIPFqklR9Fg13EjXKzgUA%3D%3D) | ☐ |
-| IBM | Quantum Algorithms and Quantum Machine Learning Intern 2027 | Chicago, IL | Nov 14 | [Link](https://www.linkedin.com/jobs/view/quantum-algorithms-and-quantum-machine-learning-intern-2027-at-ibm-4463941199?position=5&pageNum=2&refId=nqsaBWK19LAfIQdtKHs5sg%3D%3D&trackingId=6BGjj41MQOQKYXfzWC%2FBLw%3D%3D) | ☐ |
-| KLA | Software Engineering Intern – AI/ML for Diagnostics & Calibration | Milpitas, CA | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-%E2%80%93-ai-ml-for-diagnostics-calibration-at-kla-4480695499?position=1&pageNum=2&refId=WkwNmC4rTiIq24MD%2FTqHvQ%3D%3D&trackingId=kj6uCanOi92pLnJt0fyCTg%3D%3D) | ☐ |
-| MongoDB | 2027 - Software Engineering Intern, AMER | New York, NY | Nov 14 | [Link](https://www.linkedin.com/jobs/view/2027-software-engineering-intern-amer-at-mongodb-4483125446?position=9&pageNum=0&refId=duGmBUYtZhhQwfU93ZSn6w%3D%3D&trackingId=BWZrZzZsZE7758HZE2NLEg%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, Internship - Infrastructure | Palo Alto, CA | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-infrastructure-at-palantir-technologies-4434140506?position=3&pageNum=7&refId=y2SREHTZFk21nRseTHEz5A%3D%3D&trackingId=AbAUyCGqqdq%2B09Ju5wQyYw%3D%3D) | ☐ |
-| Pinterest | Software Engineer Intern 2027 (USA) | San Francisco, CA | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-2027-usa-at-pinterest-4474354854?position=4&pageNum=5&refId=C1hhbhWOmt%2Fw4DyTnmHRZA%3D%3D&trackingId=nYHVmRGzuj7Jr5vsUmyVFA%3D%3D) | ☐ |
-| SeatGeek | Software Engineer - Internship | New York, NY | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-internship-at-seatgeek-4471171648?position=4&pageNum=0&refId=duGmBUYtZhhQwfU93ZSn6w%3D%3D&trackingId=51HMZOFXeGj2B05xsIDEAg%3D%3D) | ☐ |
-| Tanium | Software Engineering Intern – Summer 2027 | Emeryville, CA | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-%E2%80%93%C2%A0summer-2027-at-tanium-4464804078?position=8&pageNum=2&refId=rXhuAqVbJzTpUyfs1oDAcw%3D%3D&trackingId=lU3gyatwICI2%2BaDWWRp5mw%3D%3D) | ☐ |
+| Kensho Technologies | Machine Learning Engineer - Summer Intern 2027 | Cambridge, MA | Nov 17 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-summer-intern-2027-at-kensho-technologies-4490954961?position=5&pageNum=0&refId=R%2BSvhpgNOFFDNhaJq9DWvw%3D%3D&trackingId=vMTNc1cOSoNac4%2Bi89G5MQ%3D%3D) | ☐ |
+| Hewlett Packard Enterprise | Software Engineer Intern | San Jose, CA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-at-hewlett-packard-enterprise-4490296909?position=1&pageNum=5&refId=2GHF7Qn47kk%2BbeeR0l6wig%3D%3D&trackingId=t%2Bh7D%2B7WLkzGCs3s%2Fhsbuw%3D%3D) | ☐ |
+| Hewlett Packard Enterprise | Data Science Intern | Sunnyvale, CA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/data-science-intern-at-hewlett-packard-enterprise-4490613389?position=4&pageNum=0&refId=sbg6K4%2FQ%2Bdl3jlEkkLjaHA%3D%3D&trackingId=yU17sSUJoSbBwetSfmSF0w%3D%3D) | ☐ |
+| Irradiant Technologies | Software Engineering Intern | Waltham, MA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-irradiant-technologies-4491544160?position=1&pageNum=2&refId=2n9s9NWFF4tcqp8rQVihOQ%3D%3D&trackingId=cBF6ZTKAfY0Bbp9pJIb%2BCQ%3D%3D) | ☐ |
+| KLA | Computer Vision/Machine Learning Intern | Milpitas, CA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/computer-vision-machine-learning-intern-at-kla-4490162036?position=9&pageNum=2&refId=ArwothD7tFlHGu9sHHvs%2BA%3D%3D&trackingId=wwHnrc0Bj%2BOQpScKEaMx7w%3D%3D) | ☐ |
+| S&P Global | Machine Learning Engineer - Summer Intern 2027 | New York, NY | Nov 16 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-summer-intern-2027-at-s-p-global-4490958049?position=10&pageNum=7&refId=%2BcZJFylj6%2BndB1EdiIdA%2Bg%3D%3D&trackingId=54DQkeDPXZEbIhayWHEcfw%3D%3D) | ☐ |
+| T-Mobile | Summer 2027 AI Engineering Internship | Bellevue, WA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/summer-2027-ai-engineering-internship-at-t-mobile-4491540463?position=4&pageNum=0&refId=muRIMuBBuH0BuUBZ4SKtRw%3D%3D&trackingId=sVsiU0NXywtpIU%2BWbhLwdQ%3D%3D) | ☐ |
+| DV Trading LLC | Quantitative Research Intern - Summer 2027 (DV Equities) | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/quantitative-research-intern-summer-2027-dv-equities-at-dv-trading-llc-4464889669?position=5&pageNum=2&refId=B4wLFXZNL66JxCd2oJSbIg%3D%3D&trackingId=2TrX3YskyNABbxoKrDFlYw%3D%3D) | ☐ |
+| DV Trading LLC | Quantitative Trading Intern - Summer 2027 (DV Equities) | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/quantitative-trading-intern-summer-2027-dv-equities-at-dv-trading-llc-4464899573?position=3&pageNum=5&refId=0yx5hPhEoWs3xcS6JIEyAQ%3D%3D&trackingId=s0a1Gt2SmAT76h21L77uaw%3D%3D) | ☐ |
+| General Motors | 2027 Summer Intern – Machine Learning Engineer, AV/AI Platform | Sunnyvale, CA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/2027-summer-intern-%E2%80%93-machine-learning-engineer-av-ai-platform-at-general-motors-4475088301?position=9&pageNum=2&refId=syHuHcLXvh%2B%2BDDRaVNGZRQ%3D%3D&trackingId=4dWI%2BMHF2M8rRRN9QUBcvQ%3D%3D) | ☐ |
+| Lyft | Data Science Intern, Algorithms (Summer 2027 - SF/NYC) | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/data-science-intern-algorithms-summer-2027-sf-nyc-at-lyft-4466341405?position=5&pageNum=0&refId=eKf6eaq2DAnpXCkSWF%2BkXA%3D%3D&trackingId=vMfTKWZfrlDmajmhSLApxA%3D%3D) | ☐ |
+| Microsoft | Software Engineering Intern - CTJ - TS | Redmond, WA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-ctj-ts-at-microsoft-4466490278?position=10&pageNum=2&refId=sZXojVBKwexIrepnOyOQbg%3D%3D&trackingId=rL4o8PBdQM6KwoAYoR%2BXPg%3D%3D) | ☐ |
+| Nuro | Software Engineer, AI Platform - Intern | Mountain View, CA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-ai-platform-intern-at-nuro-4317730018?position=10&pageNum=7&refId=SXBjqhN1Xs0%2BAwdcPzpEdw%3D%3D&trackingId=%2B%2BJe8BNh0lTj0jYNFwLdyg%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Palantir Technologies | Software Engineer, New Grad | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-palantir-technologies-4434138603?position=4&pageNum=0&refId=oOBnL4BcyJU78NfTu5l0FQ%3D%3D&trackingId=YeiWNBi5Xd2jKgzIeUR1zA%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4434155092?position=3&pageNum=2&refId=g%2FB%2BHOux8G%2BuYjyAG9tE5w%3D%3D&trackingId=SyRjsqgzPjSv5FhOBs2ENw%3D%3D) | ☐ |
-| Palantir Technologies | Software Engineer, New Grad - Infrastructure | Palo Alto, CA | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-infrastructure-at-palantir-technologies-4434149314?position=2&pageNum=2&refId=npSP9rIqTi2WmXBylucQfQ%3D%3D&trackingId=J1KYL74pV%2FqZiMcciBhPGA%3D%3D) | ☐ |
-| SeatGeek | Software Engineer - New Grad | New York, NY | Nov 14 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-seatgeek-4471163946?position=7&pageNum=2&refId=%2BJuMWSBUWonr%2FmhkRTMYmg%3D%3D&trackingId=fGczcKK9zGzShRXaisQ%2BpA%3D%3D) | ☐ |
+| Stripe | Software Engineer, New Grad | Seattle, WA | Nov 16 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-stripe-4462060032?position=8&pageNum=0&refId=GcpN%2BSXxCHt5uRNMMrwdzQ%3D%3D&trackingId=JRJzpXVdHaQ1QMvySfgLxQ%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, New Grad | New York, NY | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-at-palantir-technologies-4434138603?position=6&pageNum=7&refId=D50cmtOtEZff5KFoNwDEuQ%3D%3D&trackingId=uD%2FspRjrxW9vRfuwFgrR8Q%3D%3D) | ☐ |
+| Palantir Technologies | Software Engineer, New Grad - Production Infrastructure | Seattle, WA | Nov 15 | [Link](https://www.linkedin.com/jobs/view/software-engineer-new-grad-production-infrastructure-at-palantir-technologies-4434155092?position=1&pageNum=2&refId=%2BZuEwjN481mwklc1G7bdiw%3D%3D&trackingId=29xfZzkx1MCI5OuRWFNq1g%3D%3D) | ☐ |
