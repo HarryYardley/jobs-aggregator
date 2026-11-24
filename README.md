@@ -1,29 +1,29 @@
 # 🔎 Job Aggregator (Intern + New Grad)
 
-Last updated: **2026-11-23T06:56:53Z**
+Last updated: **2026-11-24T00:07:43Z**
 
 ## Summary
-- Total listings parsed (all sources): **5776**
-- Intern (before filtering): **2116** | New Grad (before filtering): **3660**
-- Sources: linkedin (5776)
+- Total listings parsed (all sources): **5345**
+- Intern (before filtering): **2085** | New Grad (before filtering): **3260**
+- Sources: linkedin (5345)
 
 Download full datasets: **[CSV](data/jobs.csv)** | **[JSON](data/jobs.json)**
 
 ### Top 300 Intern postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 | Company | Title | Location | Posted | Link | Applied |
 |---|---|---|---|---|---|
-| Atlassian | Machine Learning Intern, 2027 Summer U.S. | San Francisco, CA | Nov 22 | [Link](https://www.linkedin.com/jobs/view/machine-learning-intern-2027-summer-u-s-at-atlassian-4468824288?position=7&pageNum=5&refId=z0xZl%2FyuQLMA9YmAN5jSgA%3D%3D&trackingId=0wZ%2FmUVOisvqWOxw96INSw%3D%3D) | ☐ |
-| Cohere | Machine Learning Intern/Co-op  (Winter 2027) | San Francisco, CA | Nov 22 | [Link](https://www.linkedin.com/jobs/view/machine-learning-intern-co-op-winter-2027-at-cohere-4414192445?position=10&pageNum=5&refId=m%2BrJxbxXStbsVVnGlw6o6Q%3D%3D&trackingId=KJR5VfwnX8paeWrNPQ4vRQ%3D%3D) | ☐ |
-| Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | New York, NY | Nov 22 | [Link](https://www.linkedin.com/jobs/view/machine-learning-artificial-intelligence-engineering-internship-%E2%80%93-summer-2027-at-qualcomm-4468088819?position=6&pageNum=0&refId=QDWuI3bf0VPp76uDEm0EJQ%3D%3D&trackingId=ayBV4QxZC3gHB%2BCzReG%2BFQ%3D%3D) | ☐ |
-| Rivian | Artificial Intelligence, Machine Learning, & Data - Summer 2027 Internships | Palo Alto, CA | Nov 22 | [Link](https://www.linkedin.com/jobs/view/artificial-intelligence-machine-learning-data-summer-2027-internships-at-rivian-4476860587?position=6&pageNum=2&refId=mpSVfSStgb5Xom92uDrgvg%3D%3D&trackingId=Vy%2F%2FxhyTt4m5fYFZbmJsDQ%3D%3D) | ☐ |
-| Amazon | Software Development Engineer Intern, Machine Learning/Automated Reasoning- Summer 2027 | Sunnyvale, CA | Nov 21 | [Link](https://www.linkedin.com/jobs/view/software-development-engineer-intern-machine-learning-automated-reasoning-summer-2027-at-amazon-4485388761?position=7&pageNum=5&refId=ubJlpWVox7l%2BlWYHxL6LVw%3D%3D&trackingId=be16%2BpcSiUpnWymrxSyl3Q%3D%3D) | ☐ |
-| Cisco | Data Science Analyst II (Intern) – Untied States | San Jose, CA | Nov 21 | [Link](https://www.linkedin.com/jobs/view/data-science-analyst-ii-intern-%E2%80%93-untied-states-at-cisco-4493214972?position=5&pageNum=0&refId=ciUZ2XxVhzE4BEwHSdCMvQ%3D%3D&trackingId=uKM3hBDWs08xoVgK8Zrd7Q%3D%3D) | ☐ |
-| General Motors | 2027 Summer Intern – Research and Development – Vehicle Aerodynamics and Machine Learning | Warren, MI | Nov 21 | [Link](https://www.linkedin.com/jobs/view/2027-summer-intern-%E2%80%93-research-and-development-%E2%80%93-vehicle-aerodynamics-and-machine-learning-at-general-motors-4485645096?position=10&pageNum=5&refId=NnU7DBQB%2FuIT%2BsUqWhANLw%3D%3D&trackingId=mJ7WVmPiGhAK7mGh08fbWQ%3D%3D) | ☐ |
-| Microsoft | Research Intern - AI /Machine Learning Numerics & Efficiency | Mountain View, CA | Nov 21 | [Link](https://www.linkedin.com/jobs/view/research-intern-ai-machine-learning-numerics-efficiency-at-microsoft-4493278863?position=7&pageNum=7&refId=9TnJU2Rh75pdxH1nZsVhBQ%3D%3D&trackingId=oOqjMBS5oP7KOUfYoLvCNQ%3D%3D) | ☐ |
-| NVIDIA | Finance AI Engineering Intern - Summer 2027 | Santa Clara, CA | Nov 21 | [Link](https://www.linkedin.com/jobs/view/finance-ai-engineering-intern-summer-2027-at-nvidia-4492883288?position=6&pageNum=5&refId=z0xZl%2FyuQLMA9YmAN5jSgA%3D%3D&trackingId=%2FtbfNygIDutab7wLMh25fg%3D%3D) | ☐ |
-| Rivian | Software Engineering - Summer 2027 Internships | Plymouth, MI | Nov 21 | [Link](https://www.linkedin.com/jobs/view/software-engineering-summer-2027-internships-at-rivian-4476867317?position=1&pageNum=0&refId=oB%2F%2Bt9aQN72zFHNYuGcASQ%3D%3D&trackingId=MkLohpMbK9%2F%2BuOP6JrTXtw%3D%3D) | ☐ |
-| ServiceNow | Security Software Engineer Intern | Kirkland, WA | Nov 21 | [Link](https://www.linkedin.com/jobs/view/security-software-engineer-intern-at-servicenow-4493257262?position=8&pageNum=5&refId=Su%2FSHHjYCotbyPNMMBLcuw%3D%3D&trackingId=44xvywcsITofs6%2Bgq2AEtA%3D%3D) | ☐ |
-| The Voleon Group | Software Engineer Intern - (Summer 2027) | New York, NY | Nov 21 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-the-voleon-group-4459040052?position=4&pageNum=2&refId=0vf8gM4fbviMkOT1yFuMJg%3D%3D&trackingId=gNldsgZcO2PvC276eWqBPw%3D%3D) | ☐ |
+| Belvedere Trading, LLC | Quantitative Trading Intern - Summer 2027 | Chicago, IL | Nov 23 | [Link](https://www.linkedin.com/jobs/view/quantitative-trading-intern-summer-2027-at-belvedere-trading-llc-4449218287?position=3&pageNum=5&refId=2ep8mD7EFPfPcfkqYRZ6YA%3D%3D&trackingId=tZgDW99TheH8ytn3LHYqXg%3D%3D) | ☐ |
+| Motorola Solutions | Mission Critical Networks Software Engineer - Summer 2027 Internship | Schaumburg, IL | Nov 23 | [Link](https://www.linkedin.com/jobs/view/mission-critical-networks-software-engineer-summer-2027-internship-at-motorola-solutions-4493657974?position=5&pageNum=0&refId=VXyexEHCzcsQ%2FqBK%2FK5r1w%3D%3D&trackingId=dpuzgxSKE9OKWfm4995OQw%3D%3D) | ☐ |
+| Oscar Health | Software Engineering Intern | New York, NY | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-at-oscar-health-4492639593?position=6&pageNum=0&refId=B4%2FQvEm3Q%2BWDs3vccwScOg%3D%3D&trackingId=UCPKJqnoJJpqeFjeHxjZUg%3D%3D) | ☐ |
+| Qualcomm | Software Engineering Internship - Summer 2027 | Austin, TX | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineering-internship-summer-2027-at-qualcomm-4468086932?position=3&pageNum=0&refId=lseUS%2FXFcmiQO9jfjzrBDw%3D%3D&trackingId=AUb6gl0jV1mcAVc2mXGjUg%3D%3D) | ☐ |
+| Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | Austin, TX | Nov 23 | [Link](https://www.linkedin.com/jobs/view/machine-learning-artificial-intelligence-engineering-internship-%E2%80%93-summer-2027-at-qualcomm-4468401156?position=8&pageNum=2&refId=SGJrWhYRpgsVhle%2BgxJwxg%3D%3D&trackingId=5xhrA1EAgCk1rbcR8WIf9g%3D%3D) | ☐ |
+| Roku | Software Engineer Intern, AI Engineering | San Jose, CA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineer-intern-ai-engineering-at-roku-4486130285?position=4&pageNum=5&refId=nnt8p0A1ZvzghIpMzPmRRg%3D%3D&trackingId=F%2F7j2fx0KfY6cEuNBJaKGg%3D%3D) | ☐ |
+| Strava | Software Engineering Intern, Server, User Lifecycle | San Francisco, CA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-server-user-lifecycle-at-strava-4492649208?position=1&pageNum=0&refId=TMFLSV4lL0Z%2B%2FHT5CRI9Cg%3D%3D&trackingId=VG2oxO0meQ7SueRQUNgLQA%3D%3D) | ☐ |
+| Strava | Software Engineering Intern, Server, Comms | San Francisco, CA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-server-comms-at-strava-4492641506?position=4&pageNum=0&refId=TMFLSV4lL0Z%2B%2FHT5CRI9Cg%3D%3D&trackingId=yISSlhX3NyKzy%2BAKxC9OBQ%3D%3D) | ☐ |
+| Strava | Software Engineering Intern, AI/ML Data Products | San Francisco, CA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/software-engineering-intern-ai-ml-data-products-at-strava-4492651136?position=8&pageNum=0&refId=NugepGNi10m7gAQUX1w9gg%3D%3D&trackingId=z5bXVCJvAtQ7J1CWbMPAjw%3D%3D) | ☐ |
+| T-Mobile | Summer 2027 Software Engineering Internship | Bellevue, WA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/summer-2027-software-engineering-internship-at-t-mobile-4493934707?position=1&pageNum=0&refId=KVGf27%2FDblKnYNScDAHxCg%3D%3D&trackingId=khVVslwoypCbQC8w2vE%2Fzw%3D%3D) | ☐ |
+| TetraMem - Accelerate The World | Machine Learning Engineer Intern (2027) | San Jose, CA | Nov 23 | [Link](https://www.linkedin.com/jobs/view/machine-learning-engineer-intern-2027-at-tetramem-accelerate-the-world-4492105670?position=5&pageNum=2&refId=aoccubw09aTYDVHlevI2BA%3D%3D&trackingId=Iz7HuTIhcR%2FFNukcEqJnUg%3D%3D) | ☐ |
+| Rivian | Artificial Intelligence, Machine Learning, & Data - Summer 2027 Internships | Palo Alto, CA | Nov 22 | [Link](https://www.linkedin.com/jobs/view/artificial-intelligence-machine-learning-data-summer-2027-internships-at-rivian-4476860587?position=7&pageNum=2&refId=s3OzafEJUVf5v8wu9rOZhA%3D%3D&trackingId=GVcYl7RjSLNi5Yge1iW68w%3D%3D) | ☐ |
 
 ### Top 300 New Grad postings (last 3 days, deduped, ≤3/company, strict title+company filters)
 _No results matching your constraints in the last few days._
